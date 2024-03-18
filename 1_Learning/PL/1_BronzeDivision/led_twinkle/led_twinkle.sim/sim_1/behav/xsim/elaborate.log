@@ -1,0 +1,22 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 36ec705fcb0d42a0bf23625e6c7ed147 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot led_twinkle_tb_behav xil_defaultlib.led_twinkle_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/led_twinkle/led_twinkle.srcs/sources_1/new/led_4_twinkle.v" Line 1. Module led_4_twinkle(MCNT0=25000,MCNT1=12500,MCNT2=6250,MCNT3=2500) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/led_twinkle/led_twinkle.srcs/sources_1/new/led_twinkle.v" Line 1. Module led_twinkle(MCNT=25000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/led_twinkle/led_twinkle.srcs/sources_1/new/led_twinkle.v" Line 1. Module led_twinkle(MCNT=12500) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/led_twinkle/led_twinkle.srcs/sources_1/new/led_twinkle.v" Line 1. Module led_twinkle(MCNT=6250) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/led_twinkle/led_twinkle.srcs/sources_1/new/led_twinkle.v" Line 1. Module led_twinkle(MCNT=2500) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.led_twinkle(MCNT=25000)
+Compiling module xil_defaultlib.led_twinkle(MCNT=12500)
+Compiling module xil_defaultlib.led_twinkle(MCNT=6250)
+Compiling module xil_defaultlib.led_twinkle(MCNT=2500)
+Compiling module xil_defaultlib.led_4_twinkle(MCNT0=25000,MCNT1=...
+Compiling module xil_defaultlib.led_twinkle_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot led_twinkle_tb_behav

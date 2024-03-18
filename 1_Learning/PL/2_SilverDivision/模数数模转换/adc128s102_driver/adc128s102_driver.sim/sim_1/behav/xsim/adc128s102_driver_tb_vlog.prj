@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../adc128s102_driver.srcs/sources_1/new/adc128s102_driver.v" \
+"../../../../adc128s102_driver.srcs/sim_1/new/adc128s102_driver_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

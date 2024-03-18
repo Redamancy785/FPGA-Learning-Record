@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="led_twinkle_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="led_twinkle_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1112000000001fs"></ZoomEndTime>
+      <Cursor1Time time="1000200000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="171"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wave_markers>
+      <marker time="1000200000000" label="" />
+      <marker time="500200000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/led_twinkle_tb/u_clk_i" type="logic">
+      <obj_property name="ElementShortName">u_clk_i</obj_property>
+      <obj_property name="ObjectShortName">u_clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_twinkle_tb/u_reset_n_i" type="logic">
+      <obj_property name="ElementShortName">u_reset_n_i</obj_property>
+      <obj_property name="ObjectShortName">u_reset_n_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/led_twinkle_tb/u_led_o" type="array">
+      <obj_property name="ElementShortName">u_led_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">u_led_o[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

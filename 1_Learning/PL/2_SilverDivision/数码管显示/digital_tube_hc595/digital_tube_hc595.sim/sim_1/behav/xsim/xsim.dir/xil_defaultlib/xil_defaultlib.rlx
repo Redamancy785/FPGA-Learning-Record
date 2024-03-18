@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/NEW/TYUT/FPGA/Project/SilverDivision/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim/glbl.v,1710121947,verilog,,,,glbl,,,,,,,,
+D:/NEW/TYUT/FPGA/Project/SilverDivision/digital_tube_hc595/digital_tube_hc595.srcs/sim_1/new/digital_tube_hc595_tb.v,1710121947,verilog,,,,digital_tube_hc595_tb,,,,,,,,
+D:/NEW/TYUT/FPGA/Project/SilverDivision/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v,1710121947,verilog,,D:/NEW/TYUT/FPGA/Project/SilverDivision/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/new/digital_tube_hc595.v,,digital_tube,,,,,,,,
+D:/NEW/TYUT/FPGA/Project/SilverDivision/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v,1710121947,verilog,,D:/NEW/TYUT/FPGA/Project/SilverDivision/digital_tube_hc595/digital_tube_hc595.srcs/sim_1/new/digital_tube_hc595_tb.v,,hc595_driver,,,,,,,,
+D:/NEW/TYUT/FPGA/Project/SilverDivision/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/new/digital_tube_hc595.v,1710121947,verilog,,D:/NEW/TYUT/FPGA/Project/SilverDivision/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v,,digital_tube_hc595,,,,,,,,

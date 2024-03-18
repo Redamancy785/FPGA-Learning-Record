@@ -1,0 +1,107 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/NEW/TYUT/FPGA/Project/led_ctrl_3/led_ctrl_3.sim/sim_1/behav/modelsim
+T_opt
+!s110 1709806335
+VBi@O;:bQ>f@FV<1UmBTlV1
+Z1 04 13 4 work led_ctrl_3_tb fast 0
+Z2 04 4 4 work glbl fast 0
+=1-ccf9e4e9c8f7-65e992ff-1a0-d30
+Z3 o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;10.6d;65
+T_opt1
+!s110 1709805789
+V]j5m@TjF5TEW:5aogbN;?1
+R1
+R2
+=1-ccf9e4e9c8f7-65e990dc-32a-2f6c
+R3
+R4
+n@_opt1
+R5
+R0
+T_opt2
+!s110 1709801802
+V?n>dmY7;J2TTlZ>^ck28C0
+R1
+R2
+=1-ccf9e4e9c8f7-65e98149-3cc-2a4c
+R3
+R4
+n@_opt2
+R5
+R0
+vglbl
+!s110 1709806326
+!i10b 1
+!s100 JWZ^meD<P7inSF0<1SiO32
+IAl?5;D^:bf?I5A^M>WzmU1
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1544155481
+8glbl.v
+Fglbl.v
+L0 6
+Z7 OL;L;10.6d;65
+r1
+!s85 0
+31
+!s108 1709806326.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+Z8 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vled_ctrl_3
+!s10a 1709802879
+!s110 1709802891
+!i10b 1
+!s100 ;PNeVQnYHjeVhQX]:QlO30
+I?iQcB704@W^KYKFT6kG622
+R6
+R0
+w1709802879
+8../../../../led_ctrl_3.srcs/sources_1/new/led_ctrl_3.v
+F../../../../led_ctrl_3.srcs/sources_1/new/led_ctrl_3.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1709802890.000000
+Z9 !s107 ../../../../led_ctrl_3.srcs/sim_1/new/led_ctrl_3_tb.v|../../../../led_ctrl_3.srcs/sources_1/new/led_ctrl_3.v|
+Z10 !s90 -64|-incr|-work|xil_defaultlib|../../../../led_ctrl_3.srcs/sources_1/new/led_ctrl_3.v|../../../../led_ctrl_3.srcs/sim_1/new/led_ctrl_3_tb.v|
+!i113 0
+R8
+R4
+vled_ctrl_3_tb
+!s10a 1709805779
+!s110 1709805783
+!i10b 1
+!s100 XSb6TFJjJe=l03cQV]Nec3
+IzF^]DFnzSh^aBY5_IoVMf0
+R6
+R0
+w1709805779
+8../../../../led_ctrl_3.srcs/sim_1/new/led_ctrl_3_tb.v
+F../../../../led_ctrl_3.srcs/sim_1/new/led_ctrl_3_tb.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1709805783.000000
+R9
+R10
+!i113 0
+R8
+R4

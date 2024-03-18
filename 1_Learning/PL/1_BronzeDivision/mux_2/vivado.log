@@ -1,0 +1,1923 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar  8 14:09:23 2024
+# Process ID: 17828
+# Current directory: D:/NEW/TYUT/FPGA/Project/mux_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7944 D:\NEW\TYUT\FPGA\Project\mux_2\mux_2.xpr
+# Log file: D:/NEW/TYUT/FPGA/Project/mux_2/vivado.log
+# Journal file: D:/NEW/TYUT/FPGA/Project/mux_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/NEW/TYUT/FPGA/Project/mux_2/mux_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 764.914 ; gain = 175.395
+update_compile_order -fileset sources_1
+close_project
+open_project D:/NEW/TYUT/FPGA/Project/led_run/led_run.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project D:/NEW/TYUT/FPGA/Project/led_twinkle/led_twinkle.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+create_project uart_byte_tx D:/NEW/TYUT/FPGA/Project/uart_byte_tx -part xc7z010clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/data/ip'.
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 855.266 ; gain = 4.645
+set_property compxlib.modelsim_compiled_library_dir D:/NEW/TYUT/Vivado/Vivado_library [current_project]
+file mkdir D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new
+close [ open D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v w ]
+add_files D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v
+update_compile_order -fileset sources_1
+file mkdir D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sim_1/new/uart_byte_tx_tb.v w ]
+add_files -fileset sim_1 D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sim_1/new/uart_byte_tx_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'uart_byte_tx_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj uart_byte_tx_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sim_1/new/uart_byte_tx_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto b5d3fce7901d4058a5377c599733cb5b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_byte_tx_tb_behav xil_defaultlib.uart_byte_tx_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" Line 1. Module uart_byte_tx(ONE_MS=5000) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_byte_tx(ONE_MS=5000)
+Compiling module xil_defaultlib.uart_byte_tx_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_byte_tx_tb_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim/xsim.dir/uart_byte_tx_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Mar  8 19:15:06 2024...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 855.266 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "uart_byte_tx_tb_behav -key {Behavioral:sim_1:Functional:uart_byte_tx_tb} -tclbatch {uart_byte_tx_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source uart_byte_tx_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'uart_byte_tx_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 898.051 ; gain = 42.785
+run all
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'uart_byte_tx_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj uart_byte_tx_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sim_1/new/uart_byte_tx_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto b5d3fce7901d4058a5377c599733cb5b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_byte_tx_tb_behav xil_defaultlib.uart_byte_tx_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" Line 1. Module uart_byte_tx(ONE_MS=5000) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_byte_tx(ONE_MS=5000)
+Compiling module xil_defaultlib.uart_byte_tx_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_byte_tx_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 900.758 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:01:04 ; elapsed = 00:00:59 . Memory (MB): peak = 900.758 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'uart_byte_tx_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj uart_byte_tx_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sim_1/new/uart_byte_tx_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto b5d3fce7901d4058a5377c599733cb5b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_byte_tx_tb_behav xil_defaultlib.uart_byte_tx_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" Line 1. Module uart_byte_tx(ONE_MS=5000) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_byte_tx(ONE_MS=5000)
+Compiling module xil_defaultlib.uart_byte_tx_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_byte_tx_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 900.758 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 900.758 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'uart_byte_tx_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj uart_byte_tx_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sim_1/new/uart_byte_tx_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto b5d3fce7901d4058a5377c599733cb5b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_byte_tx_tb_behav xil_defaultlib.uart_byte_tx_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" Line 1. Module uart_byte_tx(ONE_MS=5000) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_byte_tx(ONE_MS=5000)
+Compiling module xil_defaultlib.uart_byte_tx_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_byte_tx_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 900.758 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 900.758 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'uart_byte_tx_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj uart_byte_tx_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sim_1/new/uart_byte_tx_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto b5d3fce7901d4058a5377c599733cb5b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_byte_tx_tb_behav xil_defaultlib.uart_byte_tx_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" Line 1. Module uart_byte_tx_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_byte_tx_default
+Compiling module xil_defaultlib.uart_byte_tx_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_byte_tx_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Time resolution is 1 ps
+INFO: [Common 17-344] 'relaunch_xsim_kernel' was cancelled
+INFO: [Common 17-344] 'relaunch_sim' was cancelled
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'uart_byte_tx_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj uart_byte_tx_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sim_1/new/uart_byte_tx_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto b5d3fce7901d4058a5377c599733cb5b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_byte_tx_tb_behav xil_defaultlib.uart_byte_tx_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" Line 1. Module uart_byte_tx_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_byte_tx_default
+Compiling module xil_defaultlib.uart_byte_tx_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_byte_tx_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 900.758 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:02:26 ; elapsed = 00:02:21 . Memory (MB): peak = 900.758 ; gain = 0.000
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/uart_byte_tx_tb/U_uart_byte_tx_0}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'uart_byte_tx_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj uart_byte_tx_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto b5d3fce7901d4058a5377c599733cb5b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_byte_tx_tb_behav xil_defaultlib.uart_byte_tx_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 900.758 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:02:10 ; elapsed = 00:02:02 . Memory (MB): peak = 900.758 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'uart_byte_tx_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj uart_byte_tx_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sim_1/new/uart_byte_tx_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto b5d3fce7901d4058a5377c599733cb5b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_byte_tx_tb_behav xil_defaultlib.uart_byte_tx_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" Line 1. Module uart_byte_tx(SEND_INTERVAL=10) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_byte_tx(SEND_INTERVAL=10)
+Compiling module xil_defaultlib.uart_byte_tx_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_byte_tx_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 900.758 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 900.758 ; gain = 0.000
+launch_runs synth_1 -jobs 8
+[Fri Mar  8 19:54:54 2024] Launched synth_1...
+Run output will be captured here: D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri Mar  8 20:06:47 2024] Launched impl_1...
+Run output will be captured here: D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.067 . Memory (MB): peak = 1168.535 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.067 . Memory (MB): peak = 1168.535 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1168.535 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1309.406 ; gain = 408.648
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+place_ports uart_tx_o J16
+set_property IOSTANDARD LVCMOS33 [get_ports [list uart_tx_o]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list uart_tx_o]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list led_o]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list reset_i]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk_i]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {data_i[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {data_i[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {data_i[2]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {data_i[3]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {data_i[4]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {data_i[5]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {data_i[6]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {data_i[7]}]]
+place_ports {data_i[7]} E17
+place_ports {data_i[6]} D18
+place_ports {data_i[5]} H15
+place_ports {data_i[4]} F16
+place_ports {data_i[3]} J14
+place_ports {data_i[2]} G14
+place_ports {data_i[1]} L15
+place_ports {data_i[0]} K14
+place_ports clk_i U18
+place_ports led_o T14
+place_ports reset_i F20
+file mkdir D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/constrs_1/new
+close [ open D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/constrs_1/new/uart_byte_tx.xdc w ]
+add_files -fileset constrs_1 D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/constrs_1/new/uart_byte_tx.xdc
+set_property target_constrs_file D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/constrs_1/new/uart_byte_tx.xdc [current_fileset -constrset]
+save_constraints -force
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1825.082 ; gain = 0.000
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Mar  8 20:14:10 2024] Launched synth_1...
+Run output will be captured here: D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.runs/synth_1/runme.log
+[Fri Mar  8 20:14:10 2024] Launched impl_1...
+Run output will be captured here: D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.runs/impl_1/runme.log
+close_design
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'uart_byte_tx_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj uart_byte_tx_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sim_1/new/uart_byte_tx_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto b5d3fce7901d4058a5377c599733cb5b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_byte_tx_tb_behav xil_defaultlib.uart_byte_tx_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-347] attempt to divide by 0; returning x [D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v:17]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'uart_byte_tx_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj uart_byte_tx_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sim_1/new/uart_byte_tx_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto b5d3fce7901d4058a5377c599733cb5b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_byte_tx_tb_behav xil_defaultlib.uart_byte_tx_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" Line 1. Module uart_byte_tx_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_byte_tx_default
+Compiling module xil_defaultlib.uart_byte_tx_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_byte_tx_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "uart_byte_tx_tb_behav -key {Behavioral:sim_1:Functional:uart_byte_tx_tb} -tclbatch {uart_byte_tx_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source uart_byte_tx_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'uart_byte_tx_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1827.078 ; gain = 0.000
+run all
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/uart_byte_tx_tb/U_uart_byte_tx_0/en_baud_rate_cnt}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'uart_byte_tx_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj uart_byte_tx_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sim_1/new/uart_byte_tx_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_tx_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto b5d3fce7901d4058a5377c599733cb5b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_byte_tx_tb_behav xil_defaultlib.uart_byte_tx_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/uart_byte_tx/uart_byte_tx.srcs/sources_1/new/uart_byte_tx.v" Line 1. Module uart_byte_tx_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_byte_tx_default
+Compiling module xil_defaultlib.uart_byte_tx_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_byte_tx_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+create_project uart_byte_rx D:/NEW/TYUT/FPGA/Project/uart_byte_rx -part xc7z010clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/data/ip'.
+set_property compxlib.modelsim_compiled_library_dir D:/NEW/TYUT/Vivado/Vivado_library [current_project]
+file mkdir D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sources_1/new
+close [ open D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sources_1/new/uart_byte_rx.v w ]
+add_files D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sources_1/new/uart_byte_rx.v
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: uart_byte_rx
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1827.078 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'uart_byte_rx' [D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sources_1/new/uart_byte_rx.v:1]
+	Parameter BAUD_RATE bound to: 9600 - type: integer 
+	Parameter FREQUENCY bound to: 50000000 - type: integer 
+	Parameter BAUD_RATE_CNT bound to: 5208 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'uart_byte_rx' (1#1) [D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sources_1/new/uart_byte_rx.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1827.078 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1827.078 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1827.078 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1922.840 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1922.840 ; gain = 95.762
+5 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1922.840 ; gain = 95.762
+close_design
+file mkdir D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sim_1/new/uart_byte_tx_tb.v w ]
+add_files -fileset sim_1 D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sim_1/new/uart_byte_tx_tb.v
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sim_1/new/uart_byte_tx_tb.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sim_1/new/uart_byte_tx_tb.v
+file delete -force D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sim_1/new/uart_byte_tx_tb.v
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sim_1/new/uart_byte_rx_tb.v w ]
+add_files -fileset sim_1 D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sim_1/new/uart_byte_rx_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'uart_byte_rx_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj uart_byte_rx_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sources_1/new/uart_byte_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sim_1/new/uart_byte_rx_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_rx_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 28c397482add44eebb25e6eff8ee4f99 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_byte_rx_tb_behav xil_defaultlib.uart_byte_rx_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sources_1/new/uart_byte_rx.v" Line 1. Module uart_byte_rx_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_byte_rx_default
+Compiling module xil_defaultlib.uart_byte_rx_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_byte_rx_tb_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim/xsim.dir/uart_byte_rx_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Mar  9 12:02:33 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "uart_byte_rx_tb_behav -key {Behavioral:sim_1:Functional:uart_byte_rx_tb} -tclbatch {uart_byte_rx_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source uart_byte_rx_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'uart_byte_rx_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1922.840 ; gain = 0.000
+current_wave_config {Untitled 3}
+Untitled 3
+add_wave {{/uart_byte_rx_tb/U_uart_byte_rx_0}} 
+run all
+run all
+run: Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 1922.840 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'uart_byte_rx_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj uart_byte_rx_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 28c397482add44eebb25e6eff8ee4f99 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_byte_rx_tb_behav xil_defaultlib.uart_byte_rx_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1922.840 ; gain = 0.000
+run all
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'uart_byte_rx_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj uart_byte_rx_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sources_1/new/uart_byte_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sim_1/new/uart_byte_rx_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_rx_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 28c397482add44eebb25e6eff8ee4f99 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_byte_rx_tb_behav xil_defaultlib.uart_byte_rx_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sources_1/new/uart_byte_rx.v" Line 1. Module uart_byte_rx_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_byte_rx_default
+Compiling module xil_defaultlib.uart_byte_rx_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_byte_rx_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run all
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'uart_byte_rx_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj uart_byte_rx_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sources_1/new/uart_byte_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sim_1/new/uart_byte_rx_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_rx_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 28c397482add44eebb25e6eff8ee4f99 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_byte_rx_tb_behav xil_defaultlib.uart_byte_rx_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sources_1/new/uart_byte_rx.v" Line 1. Module uart_byte_rx_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_byte_rx_default
+Compiling module xil_defaultlib.uart_byte_rx_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_byte_rx_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run all
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'uart_byte_rx_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj uart_byte_rx_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sources_1/new/uart_byte_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sim_1/new/uart_byte_rx_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_byte_rx_tb
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 28c397482add44eebb25e6eff8ee4f99 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_byte_rx_tb_behav xil_defaultlib.uart_byte_rx_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/uart_byte_rx/uart_byte_rx.srcs/sources_1/new/uart_byte_rx.v" Line 1. Module uart_byte_rx_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_byte_rx_default
+Compiling module xil_defaultlib.uart_byte_rx_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_byte_rx_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 1922.840 ; gain = 0.000
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+create_project key_filter D:/NEW/TYUT/FPGA/Project/key_filter -part xc7z010clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/data/ip'.
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1922.840 ; gain = 0.000
+set_property compxlib.modelsim_compiled_library_dir D:/NEW/TYUT/Vivado/Vivado_library [current_project]
+file mkdir D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.srcs/sources_1/new
+close [ open D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.srcs/sources_1/new/key_filter.v w ]
+add_files D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.srcs/sources_1/new/key_filter.v
+update_compile_order -fileset sources_1
+file mkdir D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.srcs/sim_1/new/key_filter_tb.v w ]
+add_files -fileset sim_1 D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.srcs/sim_1/new/key_filter_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'key_filter_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj key_filter_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.srcs/sources_1/new/key_filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module key_filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.srcs/sim_1/new/key_filter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module key_filter_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 227058c16f0c46808f70519355c35542 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot key_filter_tb_behav xil_defaultlib.key_filter_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.srcs/sources_1/new/key_filter.v" Line 1. Module key_filter doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.key_filter
+Compiling module xil_defaultlib.key_filter_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot key_filter_tb_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim/xsim.dir/key_filter_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Mar 10 11:47:09 2024...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1922.840 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "key_filter_tb_behav -key {Behavioral:sim_1:Functional:key_filter_tb} -tclbatch {key_filter_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source key_filter_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'key_filter_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 1922.840 ; gain = 0.000
+current_wave_config {Untitled 4}
+Untitled 4
+add_wave {{/key_filter_tb/U_key_filter_0/nedge_key}} {{/key_filter_tb/U_key_filter_0/pedge_key}} {{/key_filter_tb/U_key_filter_0/IDLE}} {{/key_filter_tb/U_key_filter_0/PRESS_FILTER}} {{/key_filter_tb/U_key_filter_0/WAIT}} {{/key_filter_tb/U_key_filter_0/RELEASE_FILTER}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'key_filter_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj key_filter_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 227058c16f0c46808f70519355c35542 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot key_filter_tb_behav xil_defaultlib.key_filter_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1922.840 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1922.840 ; gain = 0.000
+current_wave_config {Untitled 4}
+Untitled 4
+add_wave {{/key_filter_tb/U_key_filter_0/sync_d_0_key_i}} {{/key_filter_tb/U_key_filter_0/sync_d_1_key_i}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'key_filter_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj key_filter_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 227058c16f0c46808f70519355c35542 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot key_filter_tb_behav xil_defaultlib.key_filter_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1978.785 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 1978.914 ; gain = 0.098
+current_wave_config {Untitled 4}
+Untitled 4
+add_wave {{/key_filter_tb/U_key_filter_0/r_key_i}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'key_filter_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj key_filter_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 227058c16f0c46808f70519355c35542 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot key_filter_tb_behav xil_defaultlib.key_filter_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1978.914 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1982.473 ; gain = 3.559
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'key_filter_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj key_filter_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.srcs/sources_1/new/key_filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module key_filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.srcs/sim_1/new/key_filter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module key_filter_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 227058c16f0c46808f70519355c35542 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot key_filter_tb_behav xil_defaultlib.key_filter_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.srcs/sources_1/new/key_filter.v" Line 1. Module key_filter doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.key_filter
+Compiling module xil_defaultlib.key_filter_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot key_filter_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Time resolution is 1 ps
+INFO: [Common 17-344] 'relaunch_xsim_kernel' was cancelled
+INFO: [Common 17-344] 'relaunch_sim' was cancelled
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'key_filter_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj key_filter_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.srcs/sources_1/new/key_filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module key_filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.srcs/sim_1/new/key_filter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module key_filter_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 227058c16f0c46808f70519355c35542 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot key_filter_tb_behav xil_defaultlib.key_filter_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.srcs/sources_1/new/key_filter.v" Line 1. Module key_filter doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.key_filter
+Compiling module xil_defaultlib.key_filter_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot key_filter_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+current_wave_config {Untitled 4}
+Untitled 4
+add_wave {{/key_filter_tb/u_key_state_o}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'key_filter_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj key_filter_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/key_filter/key_filter.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 227058c16f0c46808f70519355c35542 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot key_filter_tb_behav xil_defaultlib.key_filter_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run all
+run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1983.512 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+create_project digital_tube D:/NEW/TYUT/FPGA/Project/digital_tube -part xc7z010clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/data/ip'.
+set_property compxlib.modelsim_compiled_library_dir D:/NEW/TYUT/Vivado/Vivado_library [current_project]
+file mkdir D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sources_1/new
+close [ open D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v w ]
+add_files D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v
+update_compile_order -fileset sources_1
+file mkdir D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v w ]
+add_files -fileset sim_1 D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'digital_tube_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj digital_tube_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 387392ed9e854b7db804a802f3c0cd21 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot digital_tube_tb_behav xil_defaultlib.digital_tube_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'disp_data_i' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:10]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'sel_o' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:11]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'seg_o' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:12]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v" Line 1. Module digital_tube_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.digital_tube_default
+Compiling module xil_defaultlib.digital_tube_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot digital_tube_tb_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim/xsim.dir/digital_tube_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Mar 10 17:10:06 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "digital_tube_tb_behav -key {Behavioral:sim_1:Functional:digital_tube_tb} -tclbatch {digital_tube_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source digital_tube_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'digital_tube_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1983.512 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'digital_tube_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+"xvlog --incr --relax -prj digital_tube_tb_vlog.prj"
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+INFO: [Common 17-344] 'relaunch_sim' was cancelled
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'digital_tube_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj digital_tube_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 387392ed9e854b7db804a802f3c0cd21 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot digital_tube_tb_behav xil_defaultlib.digital_tube_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'disp_data_i' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:10]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'sel_o' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:11]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'seg_o' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:12]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run all
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'digital_tube_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj digital_tube_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 387392ed9e854b7db804a802f3c0cd21 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot digital_tube_tb_behav xil_defaultlib.digital_tube_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'disp_data_i' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:10]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'sel_o' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:11]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'seg_o' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:12]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v" Line 1. Module digital_tube_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.digital_tube_default
+Compiling module xil_defaultlib.digital_tube_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot digital_tube_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run all
+current_wave_config {Untitled 5}
+Untitled 5
+log_wave {/digital_tube_tb/U_digital_tube_0/interval_cnt} {/digital_tube_tb/U_digital_tube_0/sel_cnt} {/digital_tube_tb/U_digital_tube_0/data_index} 
+current_wave_config {Untitled 5}
+Untitled 5
+add_wave {{/digital_tube_tb/U_digital_tube_0/interval_cnt}} {{/digital_tube_tb/U_digital_tube_0/sel_cnt}} {{/digital_tube_tb/U_digital_tube_0/data_index}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'digital_tube_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj digital_tube_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 387392ed9e854b7db804a802f3c0cd21 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot digital_tube_tb_behav xil_defaultlib.digital_tube_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'disp_data_i' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:10]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'sel_o' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:11]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'seg_o' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:12]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run all
+run all
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'digital_tube_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj digital_tube_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 387392ed9e854b7db804a802f3c0cd21 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot digital_tube_tb_behav xil_defaultlib.digital_tube_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'disp_data_i' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:10]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'sel_o' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:11]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'seg_o' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:12]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v" Line 1. Module digital_tube_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.digital_tube_default
+Compiling module xil_defaultlib.digital_tube_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot digital_tube_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run all
+current_wave_config {Untitled 5}
+Untitled 5
+add_wave {{/digital_tube_tb/U_digital_tube_0/disp_data_i}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'digital_tube_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj digital_tube_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 387392ed9e854b7db804a802f3c0cd21 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot digital_tube_tb_behav xil_defaultlib.digital_tube_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'disp_data_i' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:10]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'sel_o' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:11]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'seg_o' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:12]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run all
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'digital_tube_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj digital_tube_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 387392ed9e854b7db804a802f3c0cd21 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot digital_tube_tb_behav xil_defaultlib.digital_tube_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'disp_data_i' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:10]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'sel_o' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:11]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'seg_o' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:12]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v" Line 1. Module digital_tube_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.digital_tube_default
+Compiling module xil_defaultlib.digital_tube_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot digital_tube_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'digital_tube_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj digital_tube_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 387392ed9e854b7db804a802f3c0cd21 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot digital_tube_tb_behav xil_defaultlib.digital_tube_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'disp_data_i' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:10]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'sel_o' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:11]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'seg_o' [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:12]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run all
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'digital_tube_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj digital_tube_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube_tb
+INFO: [VRFC 10-2458] undeclared symbol u_clk_i, assumed default net type wire [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:11]
+INFO: [VRFC 10-2458] undeclared symbol u_reset_n_i, assumed default net type wire [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:12]
+INFO: [VRFC 10-2458] undeclared symbol u_disp_data_i, assumed default net type wire [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:13]
+INFO: [VRFC 10-2458] undeclared symbol u_sel_o, assumed default net type wire [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:14]
+INFO: [VRFC 10-2458] undeclared symbol u_seg_o, assumed default net type wire [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:15]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register u_clk_i is not permitted, left-hand side should be reg/integer/time/genvar [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:18]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register u_clk_i is not permitted, left-hand side should be reg/integer/time/genvar [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:19]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register u_reset_n_i is not permitted, left-hand side should be reg/integer/time/genvar [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:22]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register u_reset_n_i is not permitted, left-hand side should be reg/integer/time/genvar [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:24]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register u_disp_data_i is not permitted, left-hand side should be reg/integer/time/genvar [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:25]
+ERROR: [VRFC 10-2865] module 'digital_tube_tb' ignored due to previous errors [D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v:3]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'digital_tube_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj digital_tube_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sim_1/new/digital_tube_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 387392ed9e854b7db804a802f3c0cd21 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot digital_tube_tb_behav xil_defaultlib.digital_tube_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v" Line 1. Module digital_tube_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.digital_tube_default
+Compiling module xil_defaultlib.digital_tube_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot digital_tube_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "digital_tube_tb_behav -key {Behavioral:sim_1:Functional:digital_tube_tb} -tclbatch {digital_tube_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source digital_tube_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'digital_tube_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run all
+current_wave_config {Untitled 6}
+Untitled 6
+add_wave {{/digital_tube_tb/U_digital_tube_0}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'digital_tube_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj digital_tube_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 387392ed9e854b7db804a802f3c0cd21 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot digital_tube_tb_behav xil_defaultlib.digital_tube_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+create_project hc595_driver D:/NEW/TYUT/FPGA/Project/hc595_driver -part xc7z010clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/data/ip'.
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1983.703 ; gain = 0.000
+set_property compxlib.modelsim_compiled_library_dir D:/NEW/TYUT/Vivado/Vivado_library [current_project]
+file mkdir D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sources_1/new
+close [ open D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v w ]
+add_files D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v
+update_compile_order -fileset sources_1
+file mkdir D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sim_1/new/hc595_driver_tb.v w ]
+add_files -fileset sim_1 D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sim_1/new/hc595_driver_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'hc595_driver_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj hc595_driver_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hc595_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sim_1/new/hc595_driver_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hc595_driver_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 2402df6d857d43bbba448a60c5987558 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot hc595_driver_tb_behav xil_defaultlib.hc595_driver_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v" Line 1. Module hc595_driver_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hc595_driver_default
+Compiling module xil_defaultlib.hc595_driver_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot hc595_driver_tb_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim/xsim.dir/hc595_driver_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Mar 10 20:49:57 2024...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1983.703 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "hc595_driver_tb_behav -key {Behavioral:sim_1:Functional:hc595_driver_tb} -tclbatch {hc595_driver_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source hc595_driver_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'hc595_driver_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1983.703 ; gain = 0.000
+run all
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'hc595_driver_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj hc595_driver_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hc595_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sim_1/new/hc595_driver_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hc595_driver_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 2402df6d857d43bbba448a60c5987558 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot hc595_driver_tb_behav xil_defaultlib.hc595_driver_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v" Line 1. Module hc595_driver_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hc595_driver_default
+Compiling module xil_defaultlib.hc595_driver_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot hc595_driver_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1983.703 ; gain = 0.000
+run all
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'hc595_driver_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj hc595_driver_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hc595_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sim_1/new/hc595_driver_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hc595_driver_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 2402df6d857d43bbba448a60c5987558 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot hc595_driver_tb_behav xil_defaultlib.hc595_driver_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v" Line 1. Module hc595_driver_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hc595_driver_default
+Compiling module xil_defaultlib.hc595_driver_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot hc595_driver_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1985.277 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'hc595_driver_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj hc595_driver_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hc595_driver
+WARNING: [VRFC 10-3248] data object 'srclk_o' is already declared [D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v:65]
+ERROR: [VRFC 10-3703] second declaration of 'srclk_o' ignored [D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v:65]
+ERROR: [VRFC 10-2865] module 'hc595_driver' ignored due to previous errors [D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v:1]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'hc595_driver_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj hc595_driver_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hc595_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sim_1/new/hc595_driver_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hc595_driver_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 2402df6d857d43bbba448a60c5987558 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot hc595_driver_tb_behav xil_defaultlib.hc595_driver_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v" Line 1. Module hc595_driver_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hc595_driver_default
+Compiling module xil_defaultlib.hc595_driver_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot hc595_driver_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+create_project digital_tube_hc595 D:/NEW/TYUT/FPGA/Project/digital_tube_hc595 -part xc7z010clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/data/ip'.
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1985.277 ; gain = 0.000
+set_property compxlib.modelsim_compiled_library_dir D:/NEW/TYUT/Vivado/Vivado_library [current_project]
+file mkdir D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/new
+close [ open D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/new/digital_tube_hc595.v w ]
+add_files D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/new/digital_tube_hc595.v
+update_compile_order -fileset sources_1
+import_files -norecurse {D:/NEW/TYUT/FPGA/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.srcs/sim_1/new/digital_tube_hc595_tb.v w ]
+add_files -fileset sim_1 D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.srcs/sim_1/new/digital_tube_hc595_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'digital_tube_hc595_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj digital_tube_hc595_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/new/digital_tube_hc595.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube_hc595
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hc595_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.srcs/sim_1/new/digital_tube_hc595_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube_hc595_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto a8b651023cae494399b97bbb5be4d349 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot digital_tube_hc595_tb_behav xil_defaultlib.digital_tube_hc595_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/new/digital_tube_hc595.v" Line 1. Module digital_tube_hc595 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v" Line 1. Module digital_tube_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v" Line 1. Module hc595_driver_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.digital_tube_default
+Compiling module xil_defaultlib.hc595_driver_default
+Compiling module xil_defaultlib.digital_tube_hc595
+Compiling module xil_defaultlib.digital_tube_hc595_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot digital_tube_hc595_tb_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim/xsim.dir/digital_tube_hc595_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Mar 10 21:53:22 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "digital_tube_hc595_tb_behav -key {Behavioral:sim_1:Functional:digital_tube_hc595_tb} -tclbatch {digital_tube_hc595_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source digital_tube_hc595_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'digital_tube_hc595_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1985.277 ; gain = 0.000
+run all
+current_wave_config {Untitled 8}
+Untitled 8
+add_wave {{/digital_tube_hc595_tb/U_digital_tube_hc595_0/disp_data_i}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'digital_tube_hc595_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj digital_tube_hc595_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto a8b651023cae494399b97bbb5be4d349 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot digital_tube_hc595_tb_behav xil_defaultlib.digital_tube_hc595_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1985.277 ; gain = 0.000
+run all
+current_wave_config {Untitled 8}
+Untitled 8
+add_wave {{/digital_tube_hc595_tb/U_digital_tube_hc595_0/u_sel_o}} {{/digital_tube_hc595_tb/U_digital_tube_hc595_0/u_seg_o}} 
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'digital_tube_hc595_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj digital_tube_hc595_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto a8b651023cae494399b97bbb5be4d349 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot digital_tube_hc595_tb_behav xil_defaultlib.digital_tube_hc595_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1985.277 ; gain = 0.000
+run all
+run all
+run: Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 1985.277 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'digital_tube_hc595_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj digital_tube_hc595_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Project/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto a8b651023cae494399b97bbb5be4d349 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot digital_tube_hc595_tb_behav xil_defaultlib.digital_tube_hc595_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 11 08:58:48 2024...

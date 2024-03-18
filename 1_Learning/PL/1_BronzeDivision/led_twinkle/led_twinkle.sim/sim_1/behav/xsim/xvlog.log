@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/led_twinkle/led_twinkle.srcs/sources_1/new/led_4_twinkle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_4_twinkle
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/led_twinkle/led_twinkle.srcs/sources_1/new/led_twinkle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_twinkle
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/led_twinkle/led_twinkle.srcs/sim_1/new/led_twinkle_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_twinkle_tb

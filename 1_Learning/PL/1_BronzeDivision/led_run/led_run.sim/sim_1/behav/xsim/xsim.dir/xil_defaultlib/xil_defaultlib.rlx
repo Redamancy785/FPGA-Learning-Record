@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/NEW/TYUT/FPGA/Project/led_run/led_run.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/NEW/TYUT/FPGA/Project/led_run/led_run.srcs/sim_1/new/led_run_tb.v,1709708286,verilog,,,,led_run_tb,,,,,,,,
+D:/NEW/TYUT/FPGA/Project/led_run/led_run.srcs/sources_1/imports/new/decoder_3_8.v,1709634102,verilog,,D:/NEW/TYUT/FPGA/Project/led_run/led_run.srcs/sources_1/new/led_run_decoder.v,,decoder_3_8,,,,,,,,
+D:/NEW/TYUT/FPGA/Project/led_run/led_run.srcs/sources_1/new/led_run.v,1709696629,verilog,,D:/NEW/TYUT/FPGA/Project/led_run/led_run.srcs/sim_1/new/led_run_tb.v,,led_run,,,,,,,,
+D:/NEW/TYUT/FPGA/Project/led_run/led_run.srcs/sources_1/new/led_run_decoder.v,1709708602,verilog,,D:/NEW/TYUT/FPGA/Project/led_run/led_run.srcs/sim_1/new/led_run_tb.v,,led_run_decoder,,,,,,,,

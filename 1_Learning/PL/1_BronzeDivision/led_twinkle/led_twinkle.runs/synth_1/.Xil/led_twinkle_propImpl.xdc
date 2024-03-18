@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:D:/NEW/TYUT/FPGA/Project/led_twinkle/led_twinkle.srcs/constrs_1/new/led_twinkle.xdc rfile:../../../led_twinkle.srcs/constrs_1/new/led_twinkle.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U18 [get_ports clk_i]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN F20 [get_ports reset_n_i]
+set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T14 [get_ports led_o]

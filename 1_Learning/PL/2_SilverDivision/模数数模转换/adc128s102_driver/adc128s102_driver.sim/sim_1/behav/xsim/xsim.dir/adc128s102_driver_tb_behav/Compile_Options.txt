@@ -1,0 +1,1 @@
+-wto "c03be57057064d13995c8b65c59a0967" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "adc128s102_driver_tb_behav" "xil_defaultlib.adc128s102_driver_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

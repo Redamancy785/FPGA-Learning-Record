@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Mar 14 16:30:08 2024
+# Process ID: 3308
+# Current directory: D:/NEW/TYUT/FPGA/Project/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.runs/triangular_rom_synth_1
+# Command line: vivado.exe -log triangular_rom.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source triangular_rom.tcl
+# Log file: D:/NEW/TYUT/FPGA/Project/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.runs/triangular_rom_synth_1/triangular_rom.vds
+# Journal file: D:/NEW/TYUT/FPGA/Project/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.runs/triangular_rom_synth_1\vivado.jou
+#-----------------------------------------------------------
+source triangular_rom.tcl -notrace

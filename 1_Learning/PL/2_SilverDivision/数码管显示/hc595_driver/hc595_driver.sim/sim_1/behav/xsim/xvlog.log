@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hc595_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Project/hc595_driver/hc595_driver.srcs/sim_1/new/hc595_driver_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hc595_driver_tb

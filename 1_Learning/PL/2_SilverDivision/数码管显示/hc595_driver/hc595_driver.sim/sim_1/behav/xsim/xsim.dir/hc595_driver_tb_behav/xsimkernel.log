@@ -1,0 +1,7 @@
+Running: xsim.dir/hc595_driver_tb_behav/xsimk.exe -simmode gui -wdb hc595_driver_tb_behav.wdb -simrunnum 0 -socket 12644
+Design successfully loaded
+Design Loading Memory Usage: 5992 KB (Peak: 5992 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 14612 KB (Peak: 14612 KB)
+Simulation CPU Usage: 1046 ms

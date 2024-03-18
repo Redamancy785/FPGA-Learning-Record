@@ -1,0 +1,12 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/NEW/TYUT/FPGA/Project/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/NEW/TYUT/FPGA/Project/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.srcs/sim_1/new/dds_ad9767_tb.v,1710412811,verilog,,,,dds_ad9767_tb,,,,,,,,
+D:/NEW/TYUT/FPGA/Project/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.srcs/sources_1/imports/new/dds.v,1710410960,verilog,,D:/NEW/TYUT/FPGA/Project/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.srcs/sources_1/new/dds_ad9767.v,,dds,,,,,,,,
+D:/NEW/TYUT/FPGA/Project/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.srcs/sources_1/imports/new/key_filter.v,1710121947,verilog,,D:/NEW/TYUT/FPGA/Project/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.srcs/sim_1/new/dds_ad9767_tb.v,,key_filter,,,,,,,,
+D:/NEW/TYUT/FPGA/Project/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.srcs/sources_1/ip/sine_rom/sim/sine_rom.v,1710404875,verilog,,D:/NEW/TYUT/FPGA/Project/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.srcs/sources_1/imports/new/dds.v,,sine_rom,,,,,,,,
+D:/NEW/TYUT/FPGA/Project/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.srcs/sources_1/ip/square_rom/sim/square_rom.v,1710414209,verilog,,D:/NEW/TYUT/FPGA/Project/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.srcs/sources_1/ip/sine_rom/sim/sine_rom.v,,square_rom,,,,,,,,
+D:/NEW/TYUT/FPGA/Project/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.srcs/sources_1/ip/triangular_rom/sim/triangular_rom.v,1710405004,verilog,,D:/NEW/TYUT/FPGA/Project/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.srcs/sources_1/ip/square_rom/sim/square_rom.v,,triangular_rom,,,,,,,,
+D:/NEW/TYUT/FPGA/Project/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.srcs/sources_1/new/dds_ad9767.v,1710411924,verilog,,D:/NEW/TYUT/FPGA/Project/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.srcs/sources_1/imports/new/key_filter.v,,dds_ad9767,,,,,,,,

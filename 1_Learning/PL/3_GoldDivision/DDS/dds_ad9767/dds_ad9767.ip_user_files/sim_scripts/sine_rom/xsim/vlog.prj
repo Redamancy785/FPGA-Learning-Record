@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../dds_ad9767.srcs/sources_1/ip/sine_rom/sim/sine_rom.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

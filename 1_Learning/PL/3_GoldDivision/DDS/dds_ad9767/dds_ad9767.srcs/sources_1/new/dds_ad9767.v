@@ -141,4 +141,8 @@ module dds_ad9767(
         1 : u_p_word_b <= 1024;
     endcase
     
+    
+    
+    
+    
 endmodule

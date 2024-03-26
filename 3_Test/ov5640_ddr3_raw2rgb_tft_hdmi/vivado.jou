@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Mar 20 16:05:49 2024
+# Process ID: 17908
+# Current directory: D:/NEW/TYUT/FPGA/Code/2_Exercises/Test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20352 D:\NEW\TYUT\FPGA\Code\2_Exercises\Test\ov5640_ddr3_raw2rgb_tft_hdmi.xpr
+# Log file: D:/NEW/TYUT/FPGA/Code/2_Exercises/Test/vivado.log
+# Journal file: D:/NEW/TYUT/FPGA/Code/2_Exercises/Test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/NEW/TYUT/FPGA/Code/2_Exercises/Test/ov5640_ddr3_raw2rgb_tft_hdmi.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace D:/NEW/TYUT/FPGA/Code/2_Exercises/Test/ov5640_ddr3_raw2rgb_tft_hdmi.sdk -hwspec D:/NEW/TYUT/FPGA/Code/2_Exercises/Test/ov5640_ddr3_raw2rgb_tft_hdmi.sdk/ov5640_ddr3_tft_hdmi.hdf
+close_project
+open_project D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/ ˝¬Îπ‹œ‘ æ/digital_tube_hc595/digital_tube_hc595.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+set_property part xc7z015clg485-2 [current_project]
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source digital_tube_hc595_tb.tcl
+run all
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim

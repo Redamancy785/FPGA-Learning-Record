@@ -1,0 +1,395 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.sim/sim_1/behav/modelsim
+T_opt
+!s110 1711262729
+VnBFGMQ_V_QnC8L6hAz7VP1
+04 13 4 work dds_ad9767_tb fast 0
+04 4 4 work glbl fast 0
+=1-ccf9e4e9c8f7-65ffcc08-2d6-3044
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L xpm -L blk_mem_gen_v8_4_2 -L unisims_ver -L unimacro_ver -L secureip +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6d;65
+R0
+vasym_bwe_bb
+Z2 !s10a 1544171246
+Z3 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z4 !s110 1711262717
+!i10b 1
+!s100 jKP^O4MkdM5Qi90BUaEHc0
+I3X^V5Qnh;PAHFLUHX8:iN0
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 !s105 xpm_memory_sv_unit
+S1
+R0
+Z7 w1544171246
+Z8 8D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Z9 FD:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+L0 8013
+Z10 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z11 !s108 1711262717.000000
+Z12 !s107 D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv|
+Z13 !s90 -64|-incr|-sv|-work|xil_defaultlib|D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv|
+!i113 0
+Z14 o-sv -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdds
+!s10a 1710417255
+Z15 !s110 1711262718
+!i10b 1
+!s100 gX;?lFec1NHOzOn_kI<<;0
+IE=EjAzEII17c;:hG0^ZG>2
+R5
+R0
+w1710417255
+8../../../../dds_ad9767.srcs/sources_1/imports/new/dds.v
+F../../../../dds_ad9767.srcs/sources_1/imports/new/dds.v
+L0 7
+R10
+r1
+!s85 0
+31
+Z16 !s108 1711262718.000000
+Z17 !s107 ../../../../dds_ad9767.srcs/sim_1/new/dds_ad9767_tb.v|../../../../dds_ad9767.srcs/sources_1/imports/new/key_filter.v|../../../../dds_ad9767.srcs/sources_1/new/dds_ad9767.v|../../../../dds_ad9767.srcs/sources_1/imports/new/dds.v|../../../../dds_ad9767.srcs/sources_1/ip/sine_rom/sim/sine_rom.v|../../../../dds_ad9767.srcs/sources_1/ip/square_rom/sim/square_rom.v|../../../../dds_ad9767.srcs/sources_1/ip/triangular_rom/sim/triangular_rom.v|
+Z18 !s90 -64|-incr|-work|xil_defaultlib|../../../../dds_ad9767.srcs/sources_1/ip/triangular_rom/sim/triangular_rom.v|../../../../dds_ad9767.srcs/sources_1/ip/square_rom/sim/square_rom.v|../../../../dds_ad9767.srcs/sources_1/ip/sine_rom/sim/sine_rom.v|../../../../dds_ad9767.srcs/sources_1/imports/new/dds.v|../../../../dds_ad9767.srcs/sources_1/new/dds_ad9767.v|../../../../dds_ad9767.srcs/sources_1/imports/new/key_filter.v|../../../../dds_ad9767.srcs/sim_1/new/dds_ad9767_tb.v|
+!i113 0
+Z19 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdds_ad9767
+!s10a 1710645878
+R15
+!i10b 1
+!s100 e[3EQjejF`[0QfT2f]m[R1
+I1zzQ=97f[]I^]eGY^Sh9Z1
+R5
+R0
+w1710645878
+8../../../../dds_ad9767.srcs/sources_1/new/dds_ad9767.v
+F../../../../dds_ad9767.srcs/sources_1/new/dds_ad9767.v
+L0 7
+R10
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R1
+vdds_ad9767_tb
+!s110 1711264358
+!i10b 1
+!s100 IL0Q=4SQ=0^bMHzAl2m603
+ID<O@DZCkI81Ma@caK5iT92
+R5
+R0
+w1710417942
+8D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.srcs/sim_1/new/dds_ad9767_tb.v
+FD:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.srcs/sim_1/new/dds_ad9767_tb.v
+L0 3
+R10
+r1
+!s85 0
+31
+!s108 1711264358.000000
+!s107 D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.srcs/sim_1/new/dds_ad9767_tb.v|
+!s90 -reportprogress|300|-work|xil_defaultlib|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDS/dds_ad9767/dds_ad9767.srcs/sim_1/new/dds_ad9767_tb.v|
+!i113 0
+R19
+R1
+vglbl
+!s110 1711264095
+!i10b 1
+!s100 JWZ^meD<P7inSF0<1SiO32
+IAl?5;D^:bf?I5A^M>WzmU1
+R5
+R0
+w1544155481
+8glbl.v
+Fglbl.v
+L0 6
+R10
+r1
+!s85 0
+31
+!s108 1711264095.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R19
+R1
+vkey_filter
+!s10a 1710417558
+R15
+!i10b 1
+!s100 7cY_3PnS6=d?2S:X7:Roo2
+IhKjRE=I;`bd2h?=loiiVj1
+R5
+R0
+w1710417558
+8../../../../dds_ad9767.srcs/sources_1/imports/new/key_filter.v
+F../../../../dds_ad9767.srcs/sources_1/imports/new/key_filter.v
+L0 6
+R10
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R1
+vsine_rom
+!s10a 1710404875
+R15
+!i10b 1
+!s100 VLAzojzHNULbJbfhNFEeC3
+IeJS?EhG3XA1QQJ8OOSf@Y0
+R5
+R0
+w1710404875
+8../../../../dds_ad9767.srcs/sources_1/ip/sine_rom/sim/sine_rom.v
+F../../../../dds_ad9767.srcs/sources_1/ip/sine_rom/sim/sine_rom.v
+Z20 L0 56
+R10
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R1
+vsquare_rom
+!s10a 1710414209
+R15
+!i10b 1
+!s100 f_09[ZKEHU;`;a8<?0jY10
+IV>zfkNBZAn6HF1<MffQ5G0
+R5
+R0
+w1710414209
+8../../../../dds_ad9767.srcs/sources_1/ip/square_rom/sim/square_rom.v
+F../../../../dds_ad9767.srcs/sources_1/ip/square_rom/sim/square_rom.v
+R20
+R10
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R1
+vtriangular_rom
+!s10a 1710405004
+R15
+!i10b 1
+!s100 TQY1P;C>B>z`6SUoWl=6i1
+I:I7VG4<]TD<48WWSf8QXk0
+R5
+R0
+w1710405004
+8../../../../dds_ad9767.srcs/sources_1/ip/triangular_rom/sim/triangular_rom.v
+F../../../../dds_ad9767.srcs/sources_1/ip/triangular_rom/sim/triangular_rom.v
+R20
+R10
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R19
+R1
+vxpm_memory_base
+R2
+R3
+R4
+!i10b 1
+!s100 n8h4SHWBMN=2AXb2cg1dK1
+I3H228=O55>dj]S[8:77V=1
+R5
+R6
+S1
+R0
+R7
+R8
+R9
+L0 57
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vxpm_memory_dpdistram
+R2
+R3
+R4
+!i10b 1
+!s100 ?AHecN7ghiRW_oekfFUJ>1
+Ijz3_`JJILKE_d:MeWUAhS1
+R5
+R6
+S1
+R0
+R7
+R8
+R9
+L0 8072
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vxpm_memory_dprom
+R2
+R3
+R4
+!i10b 1
+!s100 g^<ecJkdiY:M5EA<]U3eU1
+IkNJeC;R86JN8hRdGgj81G0
+R5
+R6
+S1
+R0
+R7
+R8
+R9
+L0 8210
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vxpm_memory_sdpram
+R2
+R3
+R4
+!i10b 1
+!s100 ;=k0bM8IHj>WoPUeC`2c_3
+Ii33M:XZ<XVP5dFIKY]`0H3
+R5
+R6
+S1
+R0
+R7
+R8
+R9
+L0 8368
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vxpm_memory_spram
+R2
+R3
+R4
+!i10b 1
+!s100 9YoB265`D2jP9mjfQHQgE0
+IF_2Azjf7aTeCdmLS09B[C1
+R5
+R6
+S1
+R0
+R7
+R8
+R9
+L0 8527
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vxpm_memory_sprom
+R2
+R3
+R4
+!i10b 1
+!s100 I`NENEgSSQhVF>A?V`@MD3
+IY>K>im@T7n?;SL=R]z6fP0
+R5
+R6
+S1
+R0
+R7
+R8
+R9
+L0 8675
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vxpm_memory_tdpram
+R2
+R3
+R4
+!i10b 1
+!s100 iHOKhEH3_l7gQ4gb<Md=K2
+Ia7>iFcL6ezY=mCC<^GIG<3
+R5
+R6
+S1
+R0
+R7
+R8
+R9
+L0 8813
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1

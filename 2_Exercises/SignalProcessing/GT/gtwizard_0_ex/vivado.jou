@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Mar 25 22:07:17 2024
+# Process ID: 18472
+# Current directory: d:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/GT/gtwizard_0_ex
+# Command line: vivado.exe -notrace -source d:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/GT/gt_transceiver/gt_transceiver.srcs/sources_1/ip/gtwizard_0_1/gtwizard_0_ex.tcl
+# Log file: d:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/GT/gtwizard_0_ex/vivado.log
+# Journal file: d:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/GT/gtwizard_0_ex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+source d:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/GT/gt_transceiver/gt_transceiver.srcs/sources_1/ip/gtwizard_0_1/gtwizard_0_ex.tcl -notrace
+update_compile_order -fileset sources_1
+launch_simulation
+source gtwizard_0_TB.tcl
+run all
+current_wave_config {Untitled 1}
+add_wave {{/gtwizard_0_TB/gtwizard_0_exdes_i/r_sent_cnt}} {{/gtwizard_0_TB/gtwizard_0_exdes_i/r_sent_data}} {{/gtwizard_0_TB/gtwizard_0_exdes_i/r_sent_char}} {{/gtwizard_0_TB/gtwizard_0_exdes_i/r_receive_data}} {{/gtwizard_0_TB/gtwizard_0_exdes_i/r_receive_char}} 
+relaunch_sim
+run all
+current_wave_config {Untitled 1}
+add_wave {{/gtwizard_0_TB/tx_refclk_n_r}} {{/gtwizard_0_TB/rx_refclk_n_r}} 
+relaunch_sim
+run all
+current_wave_config {Untitled 1}
+add_wave {{/gtwizard_0_TB/gtwizard_0_exdes_i}} 
+relaunch_sim
+run all
+run all
+run all
+close_sim
+launch_simulation
+source gtwizard_0_TB.tcl
+run all
+current_wave_config {Untitled 2}
+add_wave {{/gtwizard_0_TB/gtwizard_0_exdes_i}} 
+relaunch_sim
+run all
+run all

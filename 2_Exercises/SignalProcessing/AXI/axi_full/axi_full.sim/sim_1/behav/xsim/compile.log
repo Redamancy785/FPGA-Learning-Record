@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sources_1/new/axi_full_m.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_full_m
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sources_1/new/axi_full_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_full_s
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sources_1/new/axi_full_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_full_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sim_1/new/axi_full_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_full_tb

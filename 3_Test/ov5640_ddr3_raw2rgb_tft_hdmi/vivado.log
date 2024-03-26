@@ -1,0 +1,133 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Mar 20 16:05:49 2024
+# Process ID: 17908
+# Current directory: D:/NEW/TYUT/FPGA/Code/2_Exercises/Test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20352 D:\NEW\TYUT\FPGA\Code\2_Exercises\Test\ov5640_ddr3_raw2rgb_tft_hdmi.xpr
+# Log file: D:/NEW/TYUT/FPGA/Code/2_Exercises/Test/vivado.log
+# Journal file: D:/NEW/TYUT/FPGA/Code/2_Exercises/Test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/NEW/TYUT/FPGA/Code/2_Exercises/Test/ov5640_ddr3_raw2rgb_tft_hdmi.xpr
+INFO: [Project 1-313] Project file moved from 'E:/project/ACZ7015/sample_program/ov5640_ddr3_raw2rgb_tft_hdmi' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'D:/NEW/TYUT/FPGA/Code/2_Exercises/Test/ov5640_ddr3_raw2rgb_tft_hdmi.ip_user_files', nor could it be found using path 'E:/project/ACZ7015/sample_program/ov5640_ddr3_raw2rgb_tft_hdmi/ov5640_ddr3_raw2rgb_tft_hdmi.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 785.617 ; gain = 193.422
+update_compile_order -fileset sources_1
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace D:/NEW/TYUT/FPGA/Code/2_Exercises/Test/ov5640_ddr3_raw2rgb_tft_hdmi.sdk -hwspec D:/NEW/TYUT/FPGA/Code/2_Exercises/Test/ov5640_ddr3_raw2rgb_tft_hdmi.sdk/ov5640_ddr3_tft_hdmi.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/NEW/TYUT/FPGA/Code/2_Exercises/Test/ov5640_ddr3_raw2rgb_tft_hdmi.sdk -hwspec D:/NEW/TYUT/FPGA/Code/2_Exercises/Test/ov5640_ddr3_raw2rgb_tft_hdmi.sdk/ov5640_ddr3_tft_hdmi.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+close_project
+open_project D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595'
+INFO: [Project 1-313] Project file moved from 'D:/NEW/TYUT/FPGA/Project/SilverDivision/digital_tube_hc595' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Wed Mar 20 16:30:46 2024] Launched synth_1...
+Run output will be captured here: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.runs/synth_1/runme.log
+reset_run synth_1
+set_property part xc7z015clg485-2 [current_project]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/new/digital_tube_hc595.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v:]
+ERROR: [Common 17-180] Spawn failed: Illegal byte sequence
+launch_runs synth_1 -jobs 4
+[Wed Mar 20 16:31:46 2024] Launched synth_1...
+Run output will be captured here: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.runs/synth_1/runme.log
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'digital_tube_hc595_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj digital_tube_hc595_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/new/digital_tube_hc595.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube_hc595
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hc595_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.srcs/sim_1/new/digital_tube_hc595_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube_hc595_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto a8b651023cae494399b97bbb5be4d349 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot digital_tube_hc595_tb_behav xil_defaultlib.digital_tube_hc595_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/new/digital_tube_hc595.v" Line 1. Module digital_tube_hc595 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v" Line 1. Module digital_tube_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v" Line 1. Module hc595_driver_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.digital_tube_default
+Compiling module xil_defaultlib.hc595_driver_default
+Compiling module xil_defaultlib.digital_tube_hc595
+Compiling module xil_defaultlib.digital_tube_hc595_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot digital_tube_hc595_tb_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim/xsim.dir/digital_tube_hc595_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Mar 20 16:33:04 2024...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 836.188 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "digital_tube_hc595_tb_behav -key {Behavioral:sim_1:Functional:digital_tube_hc595_tb} -tclbatch {digital_tube_hc595_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source digital_tube_hc595_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'digital_tube_hc595_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 866.895 ; gain = 30.707
+run all
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Wed Mar 20 16:33:36 2024] Launched synth_1...
+Run output will be captured here: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 870.719 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 20 16:35:18 2024...

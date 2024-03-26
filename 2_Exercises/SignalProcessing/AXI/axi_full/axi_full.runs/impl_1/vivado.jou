@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Mar 25 19:24:01 2024
+# Process ID: 25920
+# Current directory: D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.runs/impl_1
+# Command line: vivado.exe -log axi_full_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source axi_full_top.tcl -notrace
+# Log file: D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.runs/impl_1/axi_full_top.vdi
+# Journal file: D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source axi_full_top.tcl -notrace

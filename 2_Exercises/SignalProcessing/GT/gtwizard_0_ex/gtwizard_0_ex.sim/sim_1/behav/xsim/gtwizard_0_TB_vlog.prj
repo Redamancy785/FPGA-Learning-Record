@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../gtwizard_0_ex.srcs/sources_1/ip/gtwizard_0/gtwizard_0/example_design/gtwizard_0_tx_startup_fsm.v" \
+"../../../../gtwizard_0_ex.srcs/sources_1/ip/gtwizard_0/gtwizard_0/example_design/gtwizard_0_rx_startup_fsm.v" \
+"../../../../gtwizard_0_ex.srcs/sources_1/ip/gtwizard_0/gtwizard_0_init.v" \
+"../../../../gtwizard_0_ex.srcs/sources_1/ip/gtwizard_0/gtwizard_0_cpll_railing.v" \
+"../../../../gtwizard_0_ex.srcs/sources_1/ip/gtwizard_0/gtwizard_0_gt.v" \
+"../../../../gtwizard_0_ex.srcs/sources_1/ip/gtwizard_0/gtwizard_0_multi_gt.v" \
+"../../../../gtwizard_0_ex.srcs/sources_1/ip/gtwizard_0/gtwizard_0/example_design/gtwizard_0_sync_block.v" \
+"../../../../gtwizard_0_ex.srcs/sources_1/ip/gtwizard_0/gtwizard_0.v" \
+"../../../../gtwizard_0_ex.srcs/sources_1/imports/example_design/support/gtwizard_0_common.v" \
+"../../../../gtwizard_0_ex.srcs/sources_1/imports/example_design/support/gtwizard_0_common_reset.v" \
+"../../../../gtwizard_0_ex.srcs/sources_1/imports/example_design/gtwizard_0_exdes.v" \
+"../../../../gtwizard_0_ex.srcs/sources_1/imports/example_design/gtwizard_0_gt_frame_check.v" \
+"../../../../gtwizard_0_ex.srcs/sources_1/imports/example_design/gtwizard_0_gt_frame_gen.v" \
+"../../../../gtwizard_0_ex.srcs/sources_1/imports/example_design/support/gtwizard_0_gt_usrclk_source.v" \
+"../../../../gtwizard_0_ex.srcs/sources_1/imports/example_design/support/gtwizard_0_support.v" \
+"../../../../gtwizard_0_ex.srcs/sim_1/imports/simulation/gtwizard_0_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

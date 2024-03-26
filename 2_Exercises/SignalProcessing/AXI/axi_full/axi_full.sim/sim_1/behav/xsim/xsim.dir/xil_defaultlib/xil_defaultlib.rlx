@@ -1,0 +1,13 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sim_1/new/axi_full_tb.v,1711343471,verilog,,,,axi_full_tb,,,,,,,,
+D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sources_1/ip/axi_full_0_2/hdl/axi_full_v1_0.v,1711342773,verilog,,D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sources_1/ip/axi_full_0_2/sim/axi_full_0.v,,axi_full_v1_0,,,,,,,,
+D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sources_1/ip/axi_full_0_2/hdl/axi_full_v1_0_M00_AXI.v,1711342773,verilog,,D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sources_1/ip/axi_full_0_2/hdl/axi_full_v1_0_S00_AXI.v,,axi_full_v1_0_M00_AXI,,,,,,,,
+D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sources_1/ip/axi_full_0_2/hdl/axi_full_v1_0_S00_AXI.v,1711342773,verilog,,D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sources_1/ip/axi_full_0_2/hdl/axi_full_v1_0.v,,axi_full_v1_0_S00_AXI,,,,,,,,
+D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sources_1/ip/axi_full_0_2/sim/axi_full_0.v,1711342773,verilog,,D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sources_1/new/axi_full_m.v,,axi_full_0,,,,,,,,
+D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sources_1/new/axi_full_m.v,1711350991,verilog,,D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sources_1/new/axi_full_s.v,,axi_full_m,,,,,,,,
+D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sources_1/new/axi_full_s.v,1711343205,verilog,,D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sources_1/new/axi_full_top.v,,axi_full_s,,,,,,,,
+D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sources_1/new/axi_full_top.v,1711343714,verilog,,D:/NEW/TYUT/FPGA/Code/2_Exercises/SignalProcessing/AXI/axi_full/axi_full.srcs/sim_1/new/axi_full_tb.v,,axi_full_top,,,,,,,,

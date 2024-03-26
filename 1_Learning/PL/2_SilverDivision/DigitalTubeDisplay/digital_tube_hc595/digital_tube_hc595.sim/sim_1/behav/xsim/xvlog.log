@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/new/digital_tube_hc595.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube_hc595
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hc595_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.srcs/sim_1/new/digital_tube_hc595_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_tube_hc595_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

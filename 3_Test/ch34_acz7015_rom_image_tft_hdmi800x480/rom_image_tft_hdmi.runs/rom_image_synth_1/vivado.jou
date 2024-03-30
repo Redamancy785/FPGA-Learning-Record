@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar 29 21:26:12 2024
+# Process ID: 28460
+# Current directory: D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/rom_image_synth_1
+# Command line: vivado.exe -log rom_image.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rom_image.tcl
+# Log file: D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/rom_image_synth_1/rom_image.vds
+# Journal file: D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/rom_image_synth_1\vivado.jou
+#-----------------------------------------------------------
+source rom_image.tcl -notrace

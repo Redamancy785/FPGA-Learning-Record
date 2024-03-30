@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/ ˝¬Îπ‹œ‘ æ/digital_tube_hc595/digital_tube_hc595.runs/synth_1'
+HD_PWD='D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595/digital_tube_hc595.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

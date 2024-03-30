@@ -1,0 +1,75 @@
+# //  ModelSim SE-64 10.6d Feb 24 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {demo_tb_simulate.do}
+# vsim -voptargs=""+acc"" -L xil_defaultlib -L jesd204_v7_2_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.demo_tb xil_defaultlib.glbl 
+# Start time: 11:11:56 on Mar 27,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "jesd204_0_phy_gt_RX_STARTUP_FSM(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "jesd204_0_slave_attachment(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "jesd204_0_phy_gt_TX_STARTUP_FSM(fast)".
+# Loading work.demo_tb(fast)
+# Loading work.jesd204_0_example_design(fast)
+# Loading work.jesd204_0(fast)
+# Loading work.jesd204_0_support(fast)
+# Loading work.jesd204_0_block(fast)
+# Loading unisims_ver.RAM64X1S(fast)
+# Loading work.jesd204_0_axi_lite_ipif(fast)
+# Loading work.jesd204_0_slave_attachment(fast)
+# Loading work.jesd204_0_address_decoder(fast)
+# Loading work.jesd204_0_counter_f(fast)
+# Loading work.jesd204_0_register_decode(fast)
+# Loading work.jesd204_0_count_err(fast)
+# Loading sv_std.std
+# Loading xpm.xpm_cdc_single(fast)
+# Loading work.jesd204_0_reset_block(fast)
+# Loading xpm.xpm_cdc_async_rst(fast)
+# Loading work.jesd204_0_clocking(fast)
+# Loading unisims_ver.IBUF(fast)
+# Loading unisims_ver.IBUFDS_GTE2(fast)
+# Loading unisims_ver.BUFG(fast)
+# Loading work.jesd204_0_phy(fast)
+# Loading work.jesd204_0_phy_support(fast)
+# Loading work.jesd204_0_phy_block(fast)
+# Loading work.jesd204_0_phy_sync_block(fast)
+# Loading unisims_ver.FD(fast)
+# Loading unisims_ver.FDRE(fast)
+# Loading work.jesd204_0_phy_gt(fast)
+# Loading work.jesd204_0_phy_gt_init(fast)
+# Loading work.jesd204_0_phy_gt_multi_gt(fast)
+# Loading work.jesd204_0_phy_gt_GT(fast)
+# Loading unisims_ver.GTXE2_CHANNEL(fast)
+# Loading work.jesd204_0_phy_gt_cpll_railing(fast)
+# Loading unisims_ver.BUFH(fast)
+# Loading work.jesd204_0_phy_gt_TX_STARTUP_FSM(fast)
+# Loading work.jesd204_0_phy_gt_sync_block(fast)
+# Loading work.jesd204_0_phy_gt_RX_STARTUP_FSM(fast)
+# Loading work.jesd204_0_phy_sync_block(fast__1)
+# Loading xpm.xpm_cdc_single(fast__1)
+# Loading work.jesd204_0_phy_gt_common_wrapper(fast)
+# Loading work.jesd204_0_phy_gtwizard_0_common(fast)
+# Loading unisims_ver.GTXE2_COMMON(fast)
+# Loading work.jesd204_0_transport_layer_demapper(fast)
+# Loading work.jesd204_0_sig_chk(fast)
+# Loading work.glbl(fast)
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Resetting the core...
+# Version = Major   7 Minor   2 Rev   4
+run -all
+# Causality operation skipped due to absence of debug database file
+# End time: 11:20:23 on Mar 27,2024, Elapsed time: 0:08:27
+# Errors: 0, Warnings: 1

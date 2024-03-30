@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar 29 14:10:34 2024
+# Process ID: 17260
+# Current directory: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent40336 D:\NEW\TYUT\FPGA\Code\1_Learning\PL\2_SilverDivision\DigitalTubeDisplay\digital_tube_hc595\digital_tube_hc595.xpr
+# Log file: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595/vivado.log
+# Journal file: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595/digital_tube_hc595.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595/digital_tube_hc595.runs/impl_1/digital_tube_hc595.bit} [get_hw_devices xc7z015_1]
+current_hw_device [get_hw_devices xc7z015_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z015_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z015_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z015_1]
+set_property PROGRAM.FILE {D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595/digital_tube_hc595.runs/impl_1/digital_tube_hc595.bit} [get_hw_devices xc7z015_1]
+program_hw_devices [get_hw_devices xc7z015_1]
+refresh_hw_device [lindex [get_hw_devices xc7z015_1] 0]
+refresh_hw_device [lindex [get_hw_devices xc7z015_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z015_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z015_1]
+set_property PROGRAM.FILE {D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595/digital_tube_hc595.runs/impl_1/digital_tube_hc595.bit} [get_hw_devices xc7z015_1]
+program_hw_devices [get_hw_devices xc7z015_1]
+refresh_hw_device [lindex [get_hw_devices xc7z015_1] 0]
+close_hw
+open_run impl_1
+place_ports {switch_i[1]} AB22
+place_ports {switch_i[0]} AB21
+place_ports dio_o AA16
+place_ports rclk_o AA17
+place_ports srclk_o AB13
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+refresh_design
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595/digital_tube_hc595.runs/impl_1/digital_tube_hc595.bit} [get_hw_devices xc7z015_1]
+current_hw_device [get_hw_devices xc7z015_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z015_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z015_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z015_1]
+set_property PROGRAM.FILE {D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595/digital_tube_hc595.runs/impl_1/digital_tube_hc595.bit} [get_hw_devices xc7z015_1]
+program_hw_devices [get_hw_devices xc7z015_1]
+refresh_hw_device [lindex [get_hw_devices xc7z015_1] 0]
+close_hw

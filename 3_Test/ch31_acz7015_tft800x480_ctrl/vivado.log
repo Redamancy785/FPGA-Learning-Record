@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar 29 18:46:59 2024
+# Process ID: 28652
+# Current directory: D:/NEW/TYUT/FPGA/Code/3_Test/source/ch31_acz7015_tft800x480_ctrl
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent41304 D:\NEW\TYUT\FPGA\Code\3_Test\source\ch31_acz7015_tft800x480_ctrl\tft800x480_ctrl.xpr
+# Log file: D:/NEW/TYUT/FPGA/Code/3_Test/source/ch31_acz7015_tft800x480_ctrl/vivado.log
+# Journal file: D:/NEW/TYUT/FPGA/Code/3_Test/source/ch31_acz7015_tft800x480_ctrl\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/NEW/TYUT/FPGA/Code/3_Test/source/ch31_acz7015_tft800x480_ctrl/tft800x480_ctrl.xpr
+INFO: [Project 1-313] Project file moved from 'E:/project/ACZ7015/sample_program/ch31_acz702_tft800x480_ctrl' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'D:/NEW/TYUT/FPGA/Code/3_Test/source/ch31_acz7015_tft800x480_ctrl/tft800x480_ctrl.ip_user_files', nor could it be found using path 'E:/project/ACZ7015/sample_program/ch31_acz702_tft800x480_ctrl/tft800x480_ctrl.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 750.438 ; gain = 126.941
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 29 19:38:45 2024...

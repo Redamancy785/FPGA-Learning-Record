@@ -38,3 +38,4 @@ add_wave {{/gtwizard_0_TB/gtwizard_0_exdes_i}}
 relaunch_sim
 run all
 run all
+close_sim

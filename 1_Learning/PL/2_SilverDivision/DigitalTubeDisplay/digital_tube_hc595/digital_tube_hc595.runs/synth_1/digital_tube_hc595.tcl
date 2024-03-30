@@ -17,21 +17,23 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param simulator.modelsimInstallPath D:/NEW/TYUT/modelsim10.6/win64
+set_param xicom.use_bs_reader 1
 create_project -in_memory -part xc7z015clg485-2
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.cache/wt [current_project]
-set_property parent.project_path D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.xpr [current_project]
+set_property webtalk.parent_dir D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595/digital_tube_hc595.cache/wt [current_project]
+set_property parent.project_path D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595/digital_tube_hc595.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo d:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.cache/ip [current_project]
+set_property ip_output_repo d:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595/digital_tube_hc595.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
-  D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v
-  D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v
-  D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/数码管显示/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/new/digital_tube_hc595.v
+  D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/digital_tube/digital_tube.srcs/sources_1/new/digital_tube.v
+  D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/imports/Project/hc595_driver/hc595_driver.srcs/sources_1/new/hc595_driver.v
+  D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595/digital_tube_hc595.srcs/sources_1/new/digital_tube_hc595.v
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -41,6 +43,9 @@ read_verilog -library xil_defaultlib {
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
+read_xdc D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595/digital_tube_hc595.srcs/constrs_1/new/led.xdc
+set_property used_in_implementation false [get_files D:/NEW/TYUT/FPGA/Code/1_Learning/PL/2_SilverDivision/DigitalTubeDisplay/digital_tube_hc595/digital_tube_hc595.srcs/constrs_1/new/led.xdc]
+
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 

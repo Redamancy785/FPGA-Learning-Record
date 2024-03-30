@@ -1,0 +1,65 @@
+# do {UART_RAM_TFT_tb_simulate.do}
+# vsim -voptargs=""+acc"" -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.UART_RAM_TFT_tb xil_defaultlib.glbl 
+# Start time: 16:18:58 on Mar 20,2023
+# Loading xil_defaultlib.UART_RAM_TFT_tb
+# Loading xil_defaultlib.UART_RAM_TFT
+# Loading xil_defaultlib.MMCM
+# Loading xil_defaultlib.MMCM_clk_wiz
+# Loading unisims_ver.IBUF
+# Loading unisims_ver.MMCME2_ADV
+# Loading unisims_ver.BUFG
+# Loading xil_defaultlib.uart_byte_rx
+# Loading xil_defaultlib.img_rx_wr
+# Loading xil_defaultlib.RAM
+# Loading blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2
+# Loading xil_defaultlib.VGA_CTRL
+# Loading xil_defaultlib.glbl
+# Loading blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module
+# Loading blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage
+# Loading blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_output_reg_stage
+# Loading blk_mem_gen_v8_4_2.blk_mem_axi_regs_fwd_v8_4
+# ** Warning: (vsim-3017) ../../../../UART_RAM_TFT.srcs/sources_1/new/UART_RAM_TFT.v(44): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_RAM_TFT_tb/UART_RAM_TFT/uart_byte_rx File: ../../../../UART_RAM_TFT.srcs/sources_1/new/uart_byte_rx.v
+# ** Warning: (vsim-3015) ../../../../UART_RAM_TFT.srcs/sources_1/new/UART_RAM_TFT.v(44): [PCDPC] - Port size (3) does not match connection size (32) for port 'Baud_Set'. The port definition is at: ../../../../UART_RAM_TFT.srcs/sources_1/new/uart_byte_rx.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_RAM_TFT_tb/UART_RAM_TFT/uart_byte_rx File: ../../../../UART_RAM_TFT.srcs/sources_1/new/uart_byte_rx.v
+# ** Warning: (vsim-3015) ../../../../UART_RAM_TFT.srcs/sources_1/new/UART_RAM_TFT.v(53): [PCDPC] - Port size (16) does not match connection size (17) for port 'ram_wraddr'. The port definition is at: D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.sim/sim_1/behav/modelsim/../../../../UART_RAM_TFT.srcs/sources_1/new/img_rx_wr.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_RAM_TFT_tb/UART_RAM_TFT/img_rx_wr File: D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.sim/sim_1/behav/modelsim/../../../../UART_RAM_TFT.srcs/sources_1/new/img_rx_wr.v
+# ** Warning: (vsim-3015) ../../../../UART_RAM_TFT.srcs/sources_1/new/UART_RAM_TFT.v(63): [PCDPC] - Port size (1) does not match connection size (32) for port 'ena'. The port definition is at: ../../../../UART_RAM_TFT.srcs/sources_1/ip/RAM/sim/RAM.v(58).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_RAM_TFT_tb/UART_RAM_TFT/RAM File: ../../../../UART_RAM_TFT.srcs/sources_1/ip/RAM/sim/RAM.v
+# ** Warning: (vsim-3015) ../../../../UART_RAM_TFT.srcs/sources_1/new/UART_RAM_TFT.v(63): [PCDPC] - Port size (1) does not match connection size (32) for port 'enb'. The port definition is at: ../../../../UART_RAM_TFT.srcs/sources_1/ip/RAM/sim/RAM.v(63).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_RAM_TFT_tb/UART_RAM_TFT/RAM File: ../../../../UART_RAM_TFT.srcs/sources_1/ip/RAM/sim/RAM.v
+# 1
+# 1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Administrator  Hostname: WIN-RAK7ATES7DH  ProcessID: 5840
+#           Attempting to use alternate WLF file "./wlftrikz9g".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftrikz9g
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module UART_RAM_TFT_tb.UART_RAM_TFT.RAM.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+add wave -position insertpoint sim:/UART_RAM_TFT_tb/UART_RAM_TFT/*
+restart
+# ** Warning: (vsim-3017) ../../../../UART_RAM_TFT.srcs/sources_1/new/UART_RAM_TFT.v(44): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_RAM_TFT_tb/UART_RAM_TFT/uart_byte_rx File: ../../../../UART_RAM_TFT.srcs/sources_1/new/uart_byte_rx.v
+# ** Warning: (vsim-3015) ../../../../UART_RAM_TFT.srcs/sources_1/new/UART_RAM_TFT.v(44): [PCDPC] - Port size (3) does not match connection size (32) for port 'Baud_Set'. The port definition is at: ../../../../UART_RAM_TFT.srcs/sources_1/new/uart_byte_rx.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_RAM_TFT_tb/UART_RAM_TFT/uart_byte_rx File: ../../../../UART_RAM_TFT.srcs/sources_1/new/uart_byte_rx.v
+# ** Warning: (vsim-3015) ../../../../UART_RAM_TFT.srcs/sources_1/new/UART_RAM_TFT.v(53): [PCDPC] - Port size (16) does not match connection size (17) for port 'ram_wraddr'. The port definition is at: D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.sim/sim_1/behav/modelsim/../../../../UART_RAM_TFT.srcs/sources_1/new/img_rx_wr.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_RAM_TFT_tb/UART_RAM_TFT/img_rx_wr File: D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.sim/sim_1/behav/modelsim/../../../../UART_RAM_TFT.srcs/sources_1/new/img_rx_wr.v
+# ** Warning: (vsim-3015) ../../../../UART_RAM_TFT.srcs/sources_1/new/UART_RAM_TFT.v(63): [PCDPC] - Port size (1) does not match connection size (32) for port 'ena'. The port definition is at: ../../../../UART_RAM_TFT.srcs/sources_1/ip/RAM/sim/RAM.v(58).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_RAM_TFT_tb/UART_RAM_TFT/RAM File: ../../../../UART_RAM_TFT.srcs/sources_1/ip/RAM/sim/RAM.v
+# ** Warning: (vsim-3015) ../../../../UART_RAM_TFT.srcs/sources_1/new/UART_RAM_TFT.v(63): [PCDPC] - Port size (1) does not match connection size (32) for port 'enb'. The port definition is at: ../../../../UART_RAM_TFT.srcs/sources_1/ip/RAM/sim/RAM.v(63).
+#    Time: 0 ps  Iteration: 0  Instance: /UART_RAM_TFT_tb/UART_RAM_TFT/RAM File: ../../../../UART_RAM_TFT.srcs/sources_1/ip/RAM/sim/RAM.v
+run -all
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module UART_RAM_TFT_tb.UART_RAM_TFT.RAM.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# ** Note: $stop    : D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.sim/sim_1/behav/modelsim/../../../../UART_RAM_TFT.srcs/sim_1/new/UART_RAM_TFT_tb.v(38)
+#    Time: 2002201 ns  Iteration: 0  Instance: /UART_RAM_TFT_tb
+# Break in Module UART_RAM_TFT_tb at D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.sim/sim_1/behav/modelsim/../../../../UART_RAM_TFT.srcs/sim_1/new/UART_RAM_TFT_tb.v line 38
+run -all
+# End time: 16:22:31 on Mar 20,2023, Elapsed time: 0:03:33
+# Errors: 0, Warnings: 0

@@ -1,0 +1,7 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto df4b75103dd241fbb6ba885cb00c5c23 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L jesd204_v7_2_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot demo_tb_behav xil_defaultlib.demo_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis

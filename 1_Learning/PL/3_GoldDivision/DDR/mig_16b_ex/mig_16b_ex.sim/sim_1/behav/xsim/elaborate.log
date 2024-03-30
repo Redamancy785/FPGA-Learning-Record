@@ -1,0 +1,21 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto f9fa383c2386445f8d43bfb4f2d1b30a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_tb_top_behav xil_defaultlib.sim_tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 7 for port 'pi_dqs_found_lanes' [d:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDR/mig_16b_ex/mig_16b_ex.srcs/sources_1/ip/mig_16b/mig_16b/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy_wrapper.v:1671]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 7 for port 'pi_phase_locked_lanes' [d:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDR/mig_16b_ex/mig_16b_ex.srcs/sources_1/ip/mig_16b/mig_16b/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy_wrapper.v:1679]
+WARNING: [VRFC 10-3091] actual bit length 240 differs from formal bit length 320 for port 'phy_dout' [d:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDR/mig_16b_ex/mig_16b_ex.srcs/sources_1/ip/mig_16b/mig_16b/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:1300]
+WARNING: [VRFC 10-3091] actual bit length 240 differs from formal bit length 320 for port 'phy_din' [d:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDR/mig_16b_ex/mig_16b_ex.srcs/sources_1/ip/mig_16b/mig_16b/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:1328]
+WARNING: [VRFC 10-3091] actual bit length 36 differs from formal bit length 48 for port 'mem_dq_out' [d:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDR/mig_16b_ex/mig_16b_ex.srcs/sources_1/ip/mig_16b/mig_16b/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:1332]
+WARNING: [VRFC 10-3091] actual bit length 36 differs from formal bit length 48 for port 'mem_dq_ts' [d:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDR/mig_16b_ex/mig_16b_ex.srcs/sources_1/ip/mig_16b/mig_16b/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:1333]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 40 for port 'mem_dq_in' [d:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDR/mig_16b_ex/mig_16b_ex.srcs/sources_1/ip/mig_16b/mig_16b/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:1334]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'mem_dqs_out' [d:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDR/mig_16b_ex/mig_16b_ex.srcs/sources_1/ip/mig_16b/mig_16b/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:1335]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'mem_dqs_ts' [d:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDR/mig_16b_ex/mig_16b_ex.srcs/sources_1/ip/mig_16b/mig_16b/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:1336]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'mem_dqs_in' [d:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDR/mig_16b_ex/mig_16b_ex.srcs/sources_1/ip/mig_16b/mig_16b/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:1337]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'pi_phase_locked_lanes' [d:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDR/mig_16b_ex/mig_16b_ex.srcs/sources_1/ip/mig_16b/mig_16b/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:1376]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'pi_dqs_found_lanes' [d:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDR/mig_16b_ex/mig_16b_ex.srcs/sources_1/ip/mig_16b/mig_16b/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v:1377]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 7 for port 'pi_dqs_found_lanes' [d:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDR/mig_16b_ex/mig_16b_ex.srcs/sources_1/ip/mig_16b/mig_16b/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_top.v:1340]
+WARNING: [VRFC 10-3091] actual bit length 29 differs from formal bit length 32 for port 'memc_cmd_addr' [d:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/DDR/mig_16b_ex/imports/example_top.v:496]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

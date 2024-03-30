@@ -1,0 +1,14 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.srcs/sim_1/new/UART_RAM_TFT_tb.v,1608732314,verilog,,,,UART_RAM_TFT_tb,,,../../../../UART_RAM_TFT.srcs/sources_1/ip/MMCM,,,,,
+D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.srcs/sources_1/ip/MMCM/MMCM.v,1677805831,verilog,,D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.srcs/sources_1/new/UART_RAM_TFT.v,,MMCM,,,../../../../UART_RAM_TFT.srcs/sources_1/ip/MMCM,,,,,
+D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.srcs/sources_1/ip/MMCM/MMCM_clk_wiz.v,1677805830,verilog,,D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.srcs/sources_1/ip/MMCM/MMCM.v,,MMCM_clk_wiz,,,../../../../UART_RAM_TFT.srcs/sources_1/ip/MMCM,,,,,
+D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.srcs/sources_1/ip/RAM/sim/RAM.v,1608735855,verilog,,D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.srcs/sources_1/ip/MMCM/MMCM_clk_wiz.v,,RAM,,,../../../../UART_RAM_TFT.srcs/sources_1/ip/MMCM,,,,,
+D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.srcs/sources_1/new/UART_RAM_TFT.v,1677809217,verilog,,D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.srcs/sources_1/new/VGA_CTRL.v,,UART_RAM_TFT,,,../../../../UART_RAM_TFT.srcs/sources_1/ip/MMCM,,,,,
+D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.srcs/sources_1/new/VGA_CTRL.v,1608733614,verilog,,D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.srcs/sources_1/new/img_rx_wr.v,D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.srcs/sources_1/new/vga_parameter.v,VGA_CTRL,,,../../../../UART_RAM_TFT.srcs/sources_1/ip/MMCM,,,,,
+D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.srcs/sources_1/new/img_rx_wr.v,1608730253,verilog,,D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.srcs/sources_1/new/uart_byte_rx.v,,img_rx_wr,,,../../../../UART_RAM_TFT.srcs/sources_1/ip/MMCM,,,,,
+D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.srcs/sources_1/new/uart_byte_rx.v,1610104301,verilog,,D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.srcs/sim_1/new/UART_RAM_TFT_tb.v,,uart_byte_rx,,,../../../../UART_RAM_TFT.srcs/sources_1/ip/MMCM,,,,,
+D:/Verilog_file/ACX_720/25B_UART_RAM_TFT/UART_RAM_TFT.srcs/sources_1/new/vga_parameter.v,1677754652,verilog,,,,,,,,,,,,

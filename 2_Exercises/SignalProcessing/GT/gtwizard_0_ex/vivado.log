@@ -486,3 +486,5 @@ run all
 run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:48 . Memory (MB): peak = 916.578 ; gain = 0.000
 run all
 run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:36 . Memory (MB): peak = 916.578 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed

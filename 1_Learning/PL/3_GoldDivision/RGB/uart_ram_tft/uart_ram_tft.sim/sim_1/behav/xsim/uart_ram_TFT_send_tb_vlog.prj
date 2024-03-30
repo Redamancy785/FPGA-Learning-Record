@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../uart_ram_tft.srcs/sources_1/ip/my_PLL" \
+"../../../../uart_ram_tft.srcs/sources_1/ip/my_PLL/my_PLL_clk_wiz.v" \
+"../../../../uart_ram_tft.srcs/sources_1/ip/my_PLL/my_PLL.v" \
+"../../../../uart_ram_tft.srcs/sources_1/ip/RAM_DISPLAY/sim/RAM_DISPLAY.v" \
+"../../../../uart_ram_tft.srcs/sources_1/new/disp_driver.v" \
+"../../../../uart_ram_tft.srcs/sources_1/new/ram_to_display.v" \
+"../../../../uart_ram_tft.srcs/sources_1/new/uart_ram_TFT.v" \
+"../../../../uart_ram_tft.srcs/sources_1/new/uart_receive_1.v" \
+"../../../../uart_ram_tft.srcs/sources_1/new/uart_to_ram.v" \
+"../../../../uart_ram_tft.srcs/sim_1/new/uart_ram_TFT_send_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,694 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar 29 21:28:27 2024
+# Process ID: 18904
+# Current directory: D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/synth_1
+# Command line: vivado.exe -log rom_image_tft_hdmi.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rom_image_tft_hdmi.tcl
+# Log file: D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/synth_1/rom_image_tft_hdmi.vds
+# Journal file: D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source rom_image_tft_hdmi.tcl -notrace
+Command: synth_design -top rom_image_tft_hdmi -part xc7z015clg485-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z015'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z015'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 34864 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 470.520 ; gain = 97.258
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'rom_image_tft_hdmi' [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/top/rom_image_tft_hdmi.v:22]
+	Parameter DISP_IMAGE_W bound to: 256 - type: integer 
+	Parameter DISP_IMAGE_H bound to: 256 - type: integer 
+	Parameter ROM_ADDR_WIDTH bound to: 16 - type: integer 
+	Parameter DISP_BACK_COLOR bound to: 16'b1111111111111111 
+	Parameter TFT_WIDTH bound to: 800 - type: integer 
+	Parameter TFT_HEIGHT bound to: 480 - type: integer 
+	Parameter DISP_HBEGIN bound to: 272 - type: integer 
+	Parameter DISP_VBEGIN bound to: 112 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'pll' [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/synth_1/.Xil/Vivado-18904-DESKTOP-AJ2V9VE/realtime/pll_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'pll' (1#1) [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/synth_1/.Xil/Vivado-18904-DESKTOP-AJ2V9VE/realtime/pll_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'uart_receive_1' [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/uart_receive_1.v:1]
+WARNING: [Synth 8-6014] Unused sequential element sto_bit_reg was removed.  [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/uart_receive_1.v:128]
+INFO: [Synth 8-6155] done synthesizing module 'uart_receive_1' (2#1) [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/uart_receive_1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'uart_to_ram' [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/uart_to_ram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'uart_to_ram' (3#1) [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/uart_to_ram.v:1]
+INFO: [Synth 8-6157] synthesizing module 'rom_image' [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/synth_1/.Xil/Vivado-18904-DESKTOP-AJ2V9VE/realtime/rom_image_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rom_image' (4#1) [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/synth_1/.Xil/Vivado-18904-DESKTOP-AJ2V9VE/realtime/rom_image_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'image_extract' [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/image_extract/image_extract.v:22]
+	Parameter H_Visible_area bound to: 800 - type: integer 
+	Parameter V_Visible_area bound to: 480 - type: integer 
+	Parameter IMG_WIDTH bound to: 256 - type: integer 
+	Parameter IMG_HEIGHT bound to: 256 - type: integer 
+	Parameter IMG_DATA_WIDTH bound to: 16 - type: integer 
+	Parameter ROM_ADDR_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'image_extract' (5#1) [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/image_extract/image_extract.v:22]
+INFO: [Synth 8-6157] synthesizing module 'disp_driver' [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/disp_driver/disp_driver.v:20]
+	Parameter hdat_begin bound to: 12'b000011010111 
+	Parameter hdat_end bound to: 12'b001111110111 
+	Parameter vdat_begin bound to: 12'b000000100010 
+	Parameter vdat_end bound to: 12'b001000000010 
+INFO: [Synth 8-6155] done synthesizing module 'disp_driver' (6#1) [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/disp_driver/disp_driver.v:20]
+INFO: [Synth 8-6157] synthesizing module 'SiI9022_Init' [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/SiI9022_Init.v:2]
+	Parameter lut_size bound to: 42 - type: integer 
+	Parameter addr_mode bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'SiI9022_init_table' [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/SiI9022_init_table.v:21]
+	Parameter DATA_WIDTH bound to: 16 - type: integer 
+	Parameter ADDR_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SiI9022_init_table' (7#1) [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/SiI9022_init_table.v:21]
+INFO: [Synth 8-6157] synthesizing module 'i2c_control' [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/i2c_control.v:18]
+	Parameter SYS_CLOCK bound to: 50000000 - type: integer 
+	Parameter SCL_CLOCK bound to: 400000 - type: integer 
+	Parameter WR bound to: 6'b000001 
+	Parameter STA bound to: 6'b000010 
+	Parameter RD bound to: 6'b000100 
+	Parameter STO bound to: 6'b001000 
+	Parameter ACK bound to: 6'b010000 
+	Parameter NACK bound to: 6'b100000 
+	Parameter IDLE bound to: 8'b00000001 
+	Parameter WR_REG bound to: 8'b00000010 
+	Parameter WAIT_WR_DONE bound to: 8'b00000100 
+	Parameter WR_REG_DONE bound to: 8'b00001000 
+	Parameter RD_REG bound to: 8'b00010000 
+	Parameter WAIT_RD_DONE bound to: 8'b00100000 
+	Parameter RD_REG_DONE bound to: 8'b01000000 
+	Parameter WAIT_DLY bound to: 8'b10000000 
+INFO: [Synth 8-6157] synthesizing module 'i2c_bit_shift' [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/i2c_bit_shift.v:1]
+	Parameter SYS_CLOCK bound to: 50000000 - type: integer 
+	Parameter SCL_CLOCK bound to: 400000 - type: integer 
+	Parameter SCL_CNT_M bound to: 30 - type: integer 
+	Parameter WR bound to: 6'b000001 
+	Parameter STA bound to: 6'b000010 
+	Parameter RD bound to: 6'b000100 
+	Parameter STO bound to: 6'b001000 
+	Parameter ACK bound to: 6'b010000 
+	Parameter NACK bound to: 6'b100000 
+	Parameter IDLE bound to: 8'b00000001 
+	Parameter GEN_STA bound to: 8'b00000010 
+	Parameter WR_DATA bound to: 8'b00000100 
+	Parameter RD_DATA bound to: 8'b00001000 
+	Parameter CHECK_ACK bound to: 8'b00010000 
+	Parameter GEN_ACK bound to: 8'b00100000 
+	Parameter GEN_STO bound to: 8'b01000000 
+INFO: [Synth 8-226] default block is never used [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/i2c_bit_shift.v:140]
+INFO: [Synth 8-226] default block is never used [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/i2c_bit_shift.v:201]
+WARNING: [Synth 8-5788] Register i2c_sclk_reg in module i2c_bit_shift is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/i2c_bit_shift.v:119]
+INFO: [Synth 8-6155] done synthesizing module 'i2c_bit_shift' (8#1) [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/i2c_bit_shift.v:1]
+WARNING: [Synth 8-5788] Register RW_Done_reg in module i2c_control is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/i2c_control.v:110]
+INFO: [Synth 8-6155] done synthesizing module 'i2c_control' (9#1) [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/i2c_control.v:18]
+WARNING: [Synth 8-689] width (16) of port connection 'device_id' does not match port width (8) of module 'i2c_control' [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/SiI9022_Init.v:54]
+INFO: [Synth 8-6155] done synthesizing module 'SiI9022_Init' (10#1) [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/new/SiI9022_Init.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'rom_image_tft_hdmi' (11#1) [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/top/rom_image_tft_hdmi.v:22]
+WARNING: [Synth 8-3917] design rom_image_tft_hdmi has port TFT_pwm driven by constant 1
+WARNING: [Synth 8-3331] design SiI9022_Init has unconnected port device_id[15]
+WARNING: [Synth 8-3331] design SiI9022_Init has unconnected port device_id[14]
+WARNING: [Synth 8-3331] design SiI9022_Init has unconnected port device_id[13]
+WARNING: [Synth 8-3331] design SiI9022_Init has unconnected port device_id[12]
+WARNING: [Synth 8-3331] design SiI9022_Init has unconnected port device_id[11]
+WARNING: [Synth 8-3331] design SiI9022_Init has unconnected port device_id[10]
+WARNING: [Synth 8-3331] design SiI9022_Init has unconnected port device_id[9]
+WARNING: [Synth 8-3331] design SiI9022_Init has unconnected port device_id[8]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 527.117 ; gain = 153.855
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 527.117 ; gain = 153.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 527.117 ; gain = 153.855
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z015clg485-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/ip/rom_image/rom_image/rom_image_in_context.xdc] for cell 'your_instance_name'
+Finished Parsing XDC File [d:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/ip/rom_image/rom_image/rom_image_in_context.xdc] for cell 'your_instance_name'
+Parsing XDC File [d:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/ip/pll/pll/pll_in_context.xdc] for cell 'pll'
+Finished Parsing XDC File [d:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/sources_1/ip/pll/pll/pll_in_context.xdc] for cell 'pll'
+Parsing XDC File [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/constrs_1/new/pin.xdc]
+Finished Parsing XDC File [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/constrs_1/new/pin.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.srcs/constrs_1/new/pin.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/rom_image_tft_hdmi_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/rom_image_tft_hdmi_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 899.094 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 899.094 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 899.094 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 899.094 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 899.094 ; gain = 525.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z015clg485-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 899.094 ; gain = 525.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for your_instance_name. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for pll. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 899.094 ; gain = 525.832
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "r_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "r_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "r_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "r_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "r_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "r_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "r_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "r_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "byte_sta_neg" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "sta_bit" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rom" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'i2c_bit_shift'
+INFO: [Synth 8-5546] ROM "Rx_DATA" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_sdat_oe" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_sdat_oe" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_sdat_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_sdat_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Trans_Done" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ack_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_sclk" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_sclk" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_sclk" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_sclk" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "en_div_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'i2c_control'
+INFO: [Synth 8-5546] ROM "Cmd" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Cmd" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Tx_DATA" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dly_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rddata" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'SiI9022_Init'
+INFO: [Synth 8-5546] ROM "Init_Done" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "wrreg_req" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "Go" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                         00000001 |                         00000001
+                 GEN_STA |                         00000010 |                         00000010
+                 WR_DATA |                         00000100 |                         00000100
+               CHECK_ACK |                         00010000 |                         00010000
+                 RD_DATA |                         00001000 |                         00001000
+                 GEN_ACK |                         00100000 |                         00100000
+                 GEN_STO |                         01000000 |                         01000000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'state_reg' in module 'i2c_bit_shift'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                         00000001 |                         00000001
+                  WR_REG |                         00000010 |                         00000010
+            WAIT_WR_DONE |                         00000100 |                         00000100
+             WR_REG_DONE |                         00001000 |                         00001000
+                  RD_REG |                         00010000 |                         00010000
+            WAIT_RD_DONE |                         00100000 |                         00100000
+             RD_REG_DONE |                         01000000 |                         01000000
+                WAIT_DLY |                         10000000 |                         10000000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'state_reg' in module 'i2c_control'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 |                               00
+                 iSTATE1 |                               01 |                               01
+                 iSTATE0 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'SiI9022_Init'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 899.094 ; gain = 525.832
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     19 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 3     
+	   2 Input     17 Bit       Adders := 2     
+	   2 Input     16 Bit       Adders := 2     
+	   4 Input     16 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 9     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	               18 Bit    Registers := 1     
+	               16 Bit    Registers := 5     
+	                8 Bit    Registers := 7     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 3     
+	                3 Bit    Registers := 9     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 23    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   9 Input     32 Bit        Muxes := 1     
+	   2 Input     19 Bit        Muxes := 1     
+	   7 Input     18 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 5     
+	  43 Input     16 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 4     
+	   4 Input      8 Bit        Muxes := 2     
+	   6 Input      8 Bit        Muxes := 1     
+	   9 Input      8 Bit        Muxes := 3     
+	   8 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   6 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   4 Input      6 Bit        Muxes := 1     
+	   6 Input      6 Bit        Muxes := 1     
+	   9 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 6     
+	   8 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 34    
+	  12 Input      1 Bit        Muxes := 9     
+	   4 Input      1 Bit        Muxes := 17    
+	   8 Input      1 Bit        Muxes := 13    
+	   6 Input      1 Bit        Muxes := 2     
+	   9 Input      1 Bit        Muxes := 11    
+	   3 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module rom_image_tft_hdmi 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     19 Bit       Adders := 1     
++---Registers : 
+	               21 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     19 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module uart_receive_1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 9     
++---Registers : 
+	               18 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                3 Bit    Registers := 9     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   7 Input     18 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	  12 Input      1 Bit        Muxes := 9     
+Module uart_to_ram 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 3     
+Module image_extract 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 2     
+	   2 Input     16 Bit       Adders := 2     
+	   4 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 3     
+Module disp_driver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 2     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 2     
+Module SiI9022_init_table 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	  43 Input     16 Bit        Muxes := 1     
+Module i2c_bit_shift 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	               20 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   8 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 4     
+	   8 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 16    
+	   4 Input      1 Bit        Muxes := 15    
+	   8 Input      1 Bit        Muxes := 13    
+Module i2c_control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   9 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   4 Input      8 Bit        Muxes := 2     
+	   6 Input      8 Bit        Muxes := 1     
+	   9 Input      8 Bit        Muxes := 3     
+	   6 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	   4 Input      6 Bit        Muxes := 1     
+	   6 Input      6 Bit        Muxes := 1     
+	   9 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 2     
+	   9 Input      1 Bit        Muxes := 11    
+Module SiI9022_Init 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 2     
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 160 (col length:60)
+BRAMs: 190 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "sta_bit" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "r_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "r_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "r_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "r_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "r_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "r_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "r_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "r_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_control/i2c_bit_shift/state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_control/i2c_bit_shift/Trans_Done" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_control/i2c_bit_shift/i2c_sdat_oe" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_control/i2c_bit_shift/Rx_DATA" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_control/state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_control/state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Go" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design rom_image_tft_hdmi has port TFT_pwm driven by constant 1
+WARNING: [Synth 8-3331] design SiI9022_Init has unconnected port device_id[15]
+WARNING: [Synth 8-3331] design SiI9022_Init has unconnected port device_id[14]
+WARNING: [Synth 8-3331] design SiI9022_Init has unconnected port device_id[13]
+WARNING: [Synth 8-3331] design SiI9022_Init has unconnected port device_id[12]
+WARNING: [Synth 8-3331] design SiI9022_Init has unconnected port device_id[11]
+WARNING: [Synth 8-3331] design SiI9022_Init has unconnected port device_id[10]
+WARNING: [Synth 8-3331] design SiI9022_Init has unconnected port device_id[9]
+WARNING: [Synth 8-3331] design SiI9022_Init has unconnected port device_id[8]
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/cnt_reg[7]' (FDCE) to 'SiI9022_Init/i2c_control/cnt_reg[3]'
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/cnt_reg[6]' (FDCE) to 'SiI9022_Init/i2c_control/cnt_reg[3]'
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/cnt_reg[5]' (FDCE) to 'SiI9022_Init/i2c_control/cnt_reg[3]'
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/cnt_reg[4]' (FDCE) to 'SiI9022_Init/i2c_control/cnt_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SiI9022_Init/i2c_control/cnt_reg[3] )
+INFO: [Synth 8-3886] merging instance 'cnt_reg[19]' (FDC) to 'cnt_reg[20]'
+INFO: [Synth 8-3886] merging instance 'cnt_reg[20]' (FDC) to 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[19]'
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/Cmd_reg[2]' (FDCE) to 'SiI9022_Init/i2c_control/Cmd_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SiI9022_Init/i2c_control/Cmd_reg[4] )
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/cnt_reg[6]' (FDCE) to 'SiI9022_Init/cnt_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SiI9022_Init/cnt_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SiI9022_Init/i2c_control/i2c_bit_shift/state_reg[7] )
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[19]' (FDC) to 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[18]'
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[18]' (FDC) to 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[17]'
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[17]' (FDC) to 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[16]'
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[15]' (FDC) to 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[16]'
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[16]' (FDC) to 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[14]'
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[10]' (FDC) to 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[14]'
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[11]' (FDC) to 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[14]'
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[12]' (FDC) to 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[14]'
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[13]' (FDC) to 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[14]'
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[14]' (FDC) to 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[9]'
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[8]' (FDC) to 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[9]'
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[9]' (FDC) to 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[7]'
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[7]' (FDC) to 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[6]'
+INFO: [Synth 8-3886] merging instance 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[5]' (FDC) to 'SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SiI9022_Init/i2c_control/i2c_bit_shift/div_cnt_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_17/\disp_driver/vcount_r_reg[11] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 899.094 ; gain = 525.832
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'pll/clk_out1' to pin 'pll/bbstub_clk_out1/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 899.094 ; gain = 525.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 899.094 ; gain = 525.832
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 908.418 ; gain = 535.156
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 908.418 ; gain = 535.156
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 908.418 ; gain = 535.156
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 908.418 ; gain = 535.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 908.418 ; gain = 535.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 908.418 ; gain = 535.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 908.418 ; gain = 535.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |pll           |         1|
+|2     |rom_image     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |pll       |     1|
+|2     |rom_image |     1|
+|3     |BUFG      |     1|
+|4     |CARRY4    |    56|
+|5     |LUT1      |    24|
+|6     |LUT2      |    53|
+|7     |LUT3      |   139|
+|8     |LUT4      |    69|
+|9     |LUT5      |    71|
+|10    |LUT6      |   100|
+|11    |FDCE      |   274|
+|12    |FDPE      |     4|
+|13    |FDRE      |    38|
+|14    |IBUF      |     3|
+|15    |IOBUF     |     1|
+|16    |OBUF      |    23|
++------+----------+------+
+
+Report Instance Areas: 
++------+-----------------------+-------------------+------+
+|      |Instance               |Module             |Cells |
++------+-----------------------+-------------------+------+
+|1     |top                    |                   |   874|
+|2     |  SiI9022_Init         |SiI9022_Init       |   280|
+|3     |    SiI9022_init_table |SiI9022_init_table |    40|
+|4     |    i2c_control        |i2c_control        |   217|
+|5     |      i2c_bit_shift    |i2c_bit_shift      |    96|
+|6     |  disp_driver          |disp_driver        |   170|
+|7     |  image_extract        |image_extract      |    59|
+|8     |  uart_receive         |uart_receive_1     |   172|
+|9     |  uart_to_ram          |uart_to_ram        |    96|
++------+-----------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 908.418 ; gain = 535.156
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 908.418 ; gain = 163.180
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 908.418 ; gain = 535.156
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 57 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 908.418 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+130 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 908.418 ; gain = 546.672
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 908.418 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/synth_1/rom_image_tft_hdmi.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file rom_image_tft_hdmi_utilization_synth.rpt -pb rom_image_tft_hdmi_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 29 21:29:01 2024...

@@ -1,4 +1,4 @@
-module uart_receive_1(//串口接收模块
+module uart_receive_1(
     clk ,
     reset ,
     baud_rate ,
@@ -12,13 +12,13 @@ module uart_receive_1(//串口接收模块
     input uart_tx ;
     output reg [7:0]data ;
     output reg rx_done ;
-    reg rx_done_sig ;
     
+    reg rx_done_sig ;
     reg [2:0]r_data[7:0] ;//接收每一位数据
     reg [2:0]sta_bit ;
     reg [2:0]sto_bit ;
-    
     reg [17:0]bit_tim ;//每一位持续的时间（计数）
+    
     always@(baud_rate)  //在这里一个 码元由一位组成，所以波特率=比特率
         begin
             case(baud_rate)         //常见的串口传输波特率

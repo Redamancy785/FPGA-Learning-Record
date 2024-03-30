@@ -1,24 +1,3 @@
-/////////////////////////////////////////////////////////////////////////////////
-// Company: 武汉芯路恒科技有限公司
-// Engineer: 小梅哥团队
-// Web: www.corecourse.cn
-// 
-// Create Date: 2020/07/20 00:00:00
-// Design Name: rom_image_tft
-// Module Name: image_extract
-// Project Name: rom_image_tft
-// Target Devices: XC7A35T-2FGG484I
-// Tool Versions: Vivado 2018.3
-// Description: 图片描述文件，行列控制和颜色执行
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 module image_extract
 #(
   parameter H_Visible_area = 800, //整个屏幕显示区域宽度

@@ -2,24 +2,25 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Sat Mar 30 16:00:19 2024
-# Process ID: 18776
-# Current directory: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/RGB/ch34_acz7015_rom_image_tft_hdmi800x480
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15808 D:\NEW\TYUT\FPGA\Code\1_Learning\PL\3_GoldDivision\RGB\ch34_acz7015_rom_image_tft_hdmi800x480\rom_image_tft_hdmi.xpr
-# Log file: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/RGB/ch34_acz7015_rom_image_tft_hdmi800x480/vivado.log
-# Journal file: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/RGB/ch34_acz7015_rom_image_tft_hdmi800x480\vivado.jou
+# Start of session at: Sat Mar 30 17:09:36 2024
+# Process ID: 16048
+# Current directory: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/TFT/ch34_acz7015_rom_image_tft_hdmi800x480
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4412 D:\NEW\TYUT\FPGA\Code\1_Learning\PL\3_GoldDivision\TFT\ch34_acz7015_rom_image_tft_hdmi800x480\rom_image_tft_hdmi.xpr
+# Log file: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/TFT/ch34_acz7015_rom_image_tft_hdmi800x480/vivado.log
+# Journal file: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/TFT/ch34_acz7015_rom_image_tft_hdmi800x480\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/RGB/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.xpr
+open_project D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/TFT/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
 open_hw
 connect_hw_server
 open_hw_target
-set_property PROGRAM.FILE {D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/RGB/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/impl_1/rom_image_tft_hdmi.bit} [get_hw_devices xc7z015_1]
+set_property PROGRAM.FILE {D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/TFT/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/impl_1/rom_image_tft_hdmi.bit} [get_hw_devices xc7z015_1]
 current_hw_device [get_hw_devices xc7z015_1]
 refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z015_1] 0]
-update_compile_order -fileset sources_1
 set_property PROBES.FILE {} [get_hw_devices xc7z015_1]
 set_property FULL_PROBES.FILE {} [get_hw_devices xc7z015_1]
-set_property PROGRAM.FILE {D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/RGB/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/impl_1/rom_image_tft_hdmi.bit} [get_hw_devices xc7z015_1]
+set_property PROGRAM.FILE {D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/TFT/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/impl_1/rom_image_tft_hdmi.bit} [get_hw_devices xc7z015_1]
 program_hw_devices [get_hw_devices xc7z015_1]
 refresh_hw_device [lindex [get_hw_devices xc7z015_1] 0]

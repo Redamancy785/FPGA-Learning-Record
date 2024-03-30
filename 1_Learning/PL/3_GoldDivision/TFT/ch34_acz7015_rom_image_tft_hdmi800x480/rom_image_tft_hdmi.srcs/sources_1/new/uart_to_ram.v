@@ -1,4 +1,4 @@
-module uart_to_ram(//将uart串口接收模块输出的数据写入ram中
+module uart_to_ram(
     clk ,
     reset ,
     data,
@@ -7,6 +7,7 @@ module uart_to_ram(//将uart串口接收模块输出的数据写入ram中
     dout ,
     wenable    
     );
+    
     input clk ;
     input reset ;
     input [7:0]data;
@@ -66,6 +67,5 @@ module uart_to_ram(//将uart串口接收模块输出的数据写入ram中
         addr <= 16'd0 ;
     else if (  rx_done && ( pixel_cnt[0] == 1 )  )
         addr <= pixel_cnt[16:1] ; //除于2 即舍弃最后一位（右移一位）
-        
-    
+          
 endmodule

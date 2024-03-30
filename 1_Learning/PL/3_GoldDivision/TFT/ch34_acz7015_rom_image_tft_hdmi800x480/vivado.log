@@ -2,24 +2,29 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Sat Mar 30 16:00:19 2024
-# Process ID: 18776
-# Current directory: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/RGB/ch34_acz7015_rom_image_tft_hdmi800x480
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15808 D:\NEW\TYUT\FPGA\Code\1_Learning\PL\3_GoldDivision\RGB\ch34_acz7015_rom_image_tft_hdmi800x480\rom_image_tft_hdmi.xpr
-# Log file: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/RGB/ch34_acz7015_rom_image_tft_hdmi800x480/vivado.log
-# Journal file: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/RGB/ch34_acz7015_rom_image_tft_hdmi800x480\vivado.jou
+# Start of session at: Sat Mar 30 17:09:36 2024
+# Process ID: 16048
+# Current directory: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/TFT/ch34_acz7015_rom_image_tft_hdmi800x480
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4412 D:\NEW\TYUT\FPGA\Code\1_Learning\PL\3_GoldDivision\TFT\ch34_acz7015_rom_image_tft_hdmi800x480\rom_image_tft_hdmi.xpr
+# Log file: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/TFT/ch34_acz7015_rom_image_tft_hdmi800x480/vivado.log
+# Journal file: D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/TFT/ch34_acz7015_rom_image_tft_hdmi800x480\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/RGB/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.xpr
+open_project D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/TFT/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.xpr
 INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
-Current project path is 'D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/RGB/ch34_acz7015_rom_image_tft_hdmi800x480'
+Current project path is 'D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/TFT/ch34_acz7015_rom_image_tft_hdmi800x480'
 INFO: [Project 1-313] Project file moved from 'D:/NEW/TYUT/FPGA/Code/3_Test/ch34_acz7015_rom_image_tft_hdmi800x480' since last save.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/NEW/TYUT/Vivado/Xilinx/Vivado/2018.3/data/ip'.
-open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 804.496 ; gain = 163.391
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:13 . Memory (MB): peak = 798.164 ; gain = 203.086
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+INFO: [Device 21-403] Loading part xc7z015clg485-2
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
 open_hw
 connect_hw_server
 INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
@@ -33,18 +38,17 @@ INFO: [Labtools 27-2221] Launch Output:
 
 open_hw_target
 INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/C305B4A1ABCD
-open_hw_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1980.168 ; gain = 911.102
-set_property PROGRAM.FILE {D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/RGB/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/impl_1/rom_image_tft_hdmi.bit} [get_hw_devices xc7z015_1]
+open_hw_target: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2128.988 ; gain = 921.164
+set_property PROGRAM.FILE {D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/TFT/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/impl_1/rom_image_tft_hdmi.bit} [get_hw_devices xc7z015_1]
 current_hw_device [get_hw_devices xc7z015_1]
 refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z015_1] 0]
-INFO: [Labtools 27-1434] Device xc7z015 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
-update_compile_order -fileset sources_1
+INFO: [Labtools 27-1435] Device xc7z015 (JTAG device index = 1) is not programmed (DONE status = 0).
 set_property PROBES.FILE {} [get_hw_devices xc7z015_1]
 set_property FULL_PROBES.FILE {} [get_hw_devices xc7z015_1]
-set_property PROGRAM.FILE {D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/RGB/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/impl_1/rom_image_tft_hdmi.bit} [get_hw_devices xc7z015_1]
+set_property PROGRAM.FILE {D:/NEW/TYUT/FPGA/Code/1_Learning/PL/3_GoldDivision/TFT/ch34_acz7015_rom_image_tft_hdmi800x480/rom_image_tft_hdmi.runs/impl_1/rom_image_tft_hdmi.bit} [get_hw_devices xc7z015_1]
 program_hw_devices [get_hw_devices xc7z015_1]
 INFO: [Labtools 27-3164] End of startup status: HIGH
 refresh_hw_device [lindex [get_hw_devices xc7z015_1] 0]
 INFO: [Labtools 27-1434] Device xc7z015 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
 exit
-INFO: [Common 17-206] Exiting Vivado at Sat Mar 30 16:01:41 2024...
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 30 21:27:30 2024...

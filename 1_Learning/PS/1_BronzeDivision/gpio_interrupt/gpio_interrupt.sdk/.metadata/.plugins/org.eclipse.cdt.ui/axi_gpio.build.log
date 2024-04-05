@@ -1,0 +1,17 @@
+15:13:30 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_gpio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.h:22:0,
+                 from ../src/COMMON.c:14:
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\PS_GPIO/PS_GPIO.h:4:10: fatal error: xgpiops.h: No such file or directory
+ #include "xgpiops.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+
+15:13:31 Build Finished (took 821ms)
+

@@ -1,0 +1,83 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Apr  5 20:55:18 2024
+| Host         : DESKTOP-AJ2V9VE running 64-bit major release  (build 9200)
+| Command      : report_drc -file system_wrapper_drc_opted.rpt -pb system_wrapper_drc_opted.pb -rpx system_wrapper_drc_opted.rpx
+| Design       : system_wrapper
+| Device       : xc7z015clg485-2
+| Speed File   : -2
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 9
++-----------+----------+------------------------------------------------+------------+
+| Rule      | Severity | Description                                    | Violations |
++-----------+----------+------------------------------------------------+------------+
+| PLIO-5    | Error    | Placement Constraints Check for IO constraints | 4          |
+| REQP-1582 | Error    | iobuf_io_loaded                                | 4          |
+| UCIO-1    | Warning  | Unconstrained Logical Port                     | 1          |
++-----------+----------+------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PLIO-5#1 Error
+Placement Constraints Check for IO constraints  
+IO term SPI_0_0_io0_io has following unbuffered loads :  ila_0/inst/ila_core_inst/shifted_data_in_reg[7][0]_srl8(SRL16E) ila_0/inst/ila_core_inst/probeDelay1[0]_i_1(LUT3)
+Related violations: <none>
+
+PLIO-5#2 Error
+Placement Constraints Check for IO constraints  
+IO term SPI_0_0_io1_io has following unbuffered loads :  ila_0/inst/ila_core_inst/shifted_data_in_reg[7][1]_srl8(SRL16E) ila_0/inst/ila_core_inst/probeDelay1[0]_i_1__0(LUT3)
+Related violations: <none>
+
+PLIO-5#3 Error
+Placement Constraints Check for IO constraints  
+IO term SPI_0_0_sck_io has following unbuffered loads :  ila_0/inst/ila_core_inst/shifted_data_in_reg[7][2]_srl8(SRL16E) ila_0/inst/ila_core_inst/probeDelay1[0]_i_1__1(LUT3)
+Related violations: <none>
+
+PLIO-5#4 Error
+Placement Constraints Check for IO constraints  
+IO term SPI_0_0_ss_io has following unbuffered loads :  ila_0/inst/ila_core_inst/shifted_data_in_reg[7][3]_srl8(SRL16E) ila_0/inst/ila_core_inst/probeDelay1[0]_i_1__2(LUT3)
+Related violations: <none>
+
+REQP-1582#1 Error
+iobuf_io_loaded  
+IOBUF SPI_0_0_io0_iobuf pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#2 Error
+iobuf_io_loaded  
+IOBUF SPI_0_0_io1_iobuf pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#3 Error
+iobuf_io_loaded  
+IOBUF SPI_0_0_sck_iobuf pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#4 Error
+iobuf_io_loaded  
+IOBUF SPI_0_0_ss_iobuf pin IO drives one or more invalid loads.
+Related violations: <none>
+
+UCIO-1#1 Warning
+Unconstrained Logical Port  
+2 out of 136 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: SPI_0_0_ss1_o, SPI_0_0_ss2_o.
+Related violations: <none>
+
+

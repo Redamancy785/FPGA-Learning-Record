@@ -1,0 +1,626 @@
+15:05:19 **** Build of project axi_gpio_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project axi_gpio ****
+
+Nothing to build for project axi_gpio
+15:06:16 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../ACZ7015_Lib/SCU/SCU_GIC.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_gpio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"ACZ7015_Lib/SCU/SCU_GIC.d" -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -o "ACZ7015_Lib/SCU/SCU_GIC.o" "../ACZ7015_Lib/SCU/SCU_GIC.c"
+In file included from ../ACZ7015_Lib/SCU/SCU_GIC.c:14:0:
+../ACZ7015_Lib/SCU/SCU_GIC.h:5:10: fatal error: COMMON.h: No such file or directory
+ #include "COMMON.h"
+          ^~~~~~~~~~
+compilation terminated.
+make: *** [ACZ7015_Lib/SCU/subdir.mk:23: ACZ7015_Lib/SCU/SCU_GIC.o] Error 1
+15:06:54 **** Clean-only build of configuration Debug for project axi_gpio ****
+make clean 
+rm -rf  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.o  ./COMMON.o ./ISR.o ./main.o  ./ACZ7015_Lib/SCU/SCU_GIC.d ./ACZ7015_Lib/SCU/SCU_TIMER.d  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.d  ./COMMON.d ./ISR.d ./main.d  axi_gpio.elf.size  axi_gpio.elf
+' '
+15:06:55 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../ACZ7015_Lib/SCU/SCU_GIC.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_gpio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\src" -c -fmessage-length=0 -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/SCU/SCU_GIC.d" -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -o "ACZ7015_Lib/SCU/SCU_GIC.o" "../ACZ7015_Lib/SCU/SCU_GIC.c"
+In file included from ../ACZ7015_Lib/SCU/SCU_GIC.c:14:0:
+../ACZ7015_Lib/SCU/SCU_GIC.h:5:10: fatal error: COMMON.h: No such file or directory
+ #include "COMMON.h"
+          ^~~~~~~~~~
+compilation terminated.
+make: *** [ACZ7015_Lib/SCU/subdir.mk:23: ACZ7015_Lib/SCU/SCU_GIC.o] Error 1
+15:07:41 **** Clean-only build of configuration Debug for project axi_gpio ****
+make clean 
+rm -rf  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.o  ./COMMON.o ./ISR.o ./main.o  ./ACZ7015_Lib/SCU/SCU_GIC.d ./ACZ7015_Lib/SCU/SCU_TIMER.d  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.d  ./COMMON.d ./ISR.d ./main.d  axi_gpio.elf.size  axi_gpio.elf
+' '
+15:07:41 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../ACZ7015_Lib/SCU/SCU_GIC.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_gpio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\src" -c -fmessage-length=0 -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/SCU/SCU_GIC.d" -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -o "ACZ7015_Lib/SCU/SCU_GIC.o" "../ACZ7015_Lib/SCU/SCU_GIC.c"
+In file included from ../ACZ7015_Lib/SCU/SCU_GIC.c:14:0:
+../ACZ7015_Lib/SCU/SCU_GIC.h:5:10: fatal error: COMMON.h: No such file or directory
+ #include "COMMON.h"
+          ^~~~~~~~~~
+compilation terminated.
+make: *** [ACZ7015_Lib/SCU/subdir.mk:23: ACZ7015_Lib/SCU/SCU_GIC.o] Error 1
+15:07:42 **** Clean-only build of configuration Debug for project axi_gpio ****
+make clean 
+rm -rf  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.o  ./COMMON.o ./ISR.o ./main.o  ./ACZ7015_Lib/SCU/SCU_GIC.d ./ACZ7015_Lib/SCU/SCU_TIMER.d  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.d  ./COMMON.d ./ISR.d ./main.d  axi_gpio.elf.size  axi_gpio.elf
+' '
+15:07:43 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../ACZ7015_Lib/SCU/SCU_GIC.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_gpio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\src" -c -fmessage-length=0 -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/SCU/SCU_GIC.d" -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -o "ACZ7015_Lib/SCU/SCU_GIC.o" "../ACZ7015_Lib/SCU/SCU_GIC.c"
+In file included from ../ACZ7015_Lib/SCU/SCU_GIC.c:14:0:
+../ACZ7015_Lib/SCU/SCU_GIC.h:5:10: fatal error: COMMON.h: No such file or directory
+ #include "COMMON.h"
+          ^~~~~~~~~~
+compilation terminated.
+make: *** [ACZ7015_Lib/SCU/subdir.mk:23: ACZ7015_Lib/SCU/SCU_GIC.o] Error 1
+15:10:14 **** Clean-only build of configuration Debug for project axi_gpio ****
+make clean 
+rm -rf  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.o  ./COMMON.o ./ISR.o ./main.o  ./ACZ7015_Lib/SCU/SCU_GIC.d ./ACZ7015_Lib/SCU/SCU_TIMER.d  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.d  ./COMMON.d ./ISR.d ./main.d  axi_gpio.elf.size  axi_gpio.elf
+' '
+15:10:14 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_gpio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\src" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.h:22:0,
+                 from ../src/COMMON.c:14:
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\PS_GPIO/PS_GPIO.h:4:10: fatal error: xgpiops.h: No such file or directory
+ #include "xgpiops.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+15:12:17 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_gpio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\src" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.h:22:0,
+                 from ../src/COMMON.c:14:
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\PS_GPIO/PS_GPIO.h:4:10: fatal error: xgpiops.h: No such file or directory
+ #include "xgpiops.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+15:13:00 **** Clean-only build of configuration Debug for project axi_gpio ****
+make clean 
+rm -rf  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.o  ./COMMON.o ./ISR.o ./main.o  ./src/COMMON.d ./src/ISR.d ./src/main.d  ./ACZ7015_Lib/SCU/SCU_GIC.d ./ACZ7015_Lib/SCU/SCU_TIMER.d  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.d  ./COMMON.d ./ISR.d ./main.d  axi_gpio.elf.size  axi_gpio.elf
+' '
+15:13:00 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_gpio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\src" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.c:14:0:
+../src/COMMON.h:22:10: fatal error: PS_GPIO.h: No such file or directory
+ #include "PS_GPIO.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+15:13:26 **** Clean-only build of configuration Debug for project axi_gpio ****
+make clean 
+rm -rf  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.o  ./COMMON.o ./ISR.o ./main.o  ./src/COMMON.d ./src/ISR.d ./src/main.d  ./ACZ7015_Lib/SCU/SCU_GIC.d ./ACZ7015_Lib/SCU/SCU_TIMER.d  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.d  ./COMMON.d ./ISR.d ./main.d  axi_gpio.elf.size  axi_gpio.elf
+' '
+15:13:26 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_gpio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.h:22:0,
+                 from ../src/COMMON.c:14:
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\PS_GPIO/PS_GPIO.h:4:10: fatal error: xgpiops.h: No such file or directory
+ #include "xgpiops.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+15:13:29 **** Clean-only build of configuration Debug for project axi_gpio ****
+make clean 
+rm -rf  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.o  ./COMMON.o ./ISR.o ./main.o  ./src/COMMON.d ./src/ISR.d ./src/main.d  ./ACZ7015_Lib/SCU/SCU_GIC.d ./ACZ7015_Lib/SCU/SCU_TIMER.d  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.d  ./COMMON.d ./ISR.d ./main.d  axi_gpio.elf.size  axi_gpio.elf
+' '
+15:13:30 **** Auto Build of configuration Debug for project axi_gpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_gpio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.h:22:0,
+                 from ../src/COMMON.c:14:
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_gpio\ACZ7015_Lib\PS_GPIO/PS_GPIO.h:4:10: fatal error: xgpiops.h: No such file or directory
+ #include "xgpiops.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+15:16:57 **** Build of project axi_goio_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project axi_goio ****
+
+Nothing to build for project axi_goio
+15:18:05 **** Auto Build of configuration Debug for project axi_goio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../axi_goio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.c:14:0:
+../src/COMMON.h:22:10: fatal error: PS_GPIO.h: No such file or directory
+ #include "PS_GPIO.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+15:18:40 **** Clean-only build of configuration Debug for project axi_goio ****
+make clean 
+rm -rf  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.o  ./src/COMMON.d ./src/ISR.d ./src/main.d  ./ACZ7015_Lib/SCU/SCU_GIC.d ./ACZ7015_Lib/SCU/SCU_TIMER.d  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.d  axi_goio.elf.size  axi_goio.elf
+' '
+15:18:40 **** Auto Build of configuration Debug for project axi_goio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.h:22:0,
+                 from ../src/COMMON.c:14:
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\PS_GPIO/PS_GPIO.h:4:10: fatal error: xgpiops.h: No such file or directory
+ #include "xgpiops.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+15:19:50 **** Auto Build of configuration Debug for project axi_goio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.h:22:0,
+                 from ../src/COMMON.c:14:
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\PS_GPIO/PS_GPIO.h:4:10: fatal error: xgpiops.h: No such file or directory
+ #include "xgpiops.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+15:20:40 **** Clean-only build of configuration Debug for project axi_goio ****
+make clean 
+rm -rf  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.o  ./src/COMMON.d ./src/ISR.d ./src/main.d  ./ACZ7015_Lib/SCU/SCU_GIC.d ./ACZ7015_Lib/SCU/SCU_TIMER.d  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.d  axi_goio.elf.size  axi_goio.elf
+' '
+15:20:40 **** Auto Build of configuration Debug for project axi_goio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.c:14:0:
+../src/COMMON.h:22:10: fatal error: PS_GPIO.h: No such file or directory
+ #include "PS_GPIO.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+15:29:40 **** Clean-only build of configuration Debug for project axi_goio ****
+make clean 
+rm -rf  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/AXI_TIMER/AXI_TIMER.o  ./src/COMMON.d ./src/ISR.d ./src/main.d  ./ACZ7015_Lib/SCU/SCU_GIC.d ./ACZ7015_Lib/SCU/SCU_TIMER.d  ./ACZ7015_Lib/AXI_TIMER/AXI_TIMER.d  axi_goio.elf.size  axi_goio.elf
+' '
+15:29:40 **** Auto Build of configuration Debug for project axi_goio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.c:14:0:
+../src/COMMON.h:22:10: fatal error: PS_GPIO.h: No such file or directory
+ #include "PS_GPIO.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+15:30:00 **** Clean-only build of configuration Debug for project axi_goio ****
+make clean 
+rm -rf  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/AXI_GPIO/AXI_GPIO.o  ./src/COMMON.d ./src/ISR.d ./src/main.d  ./ACZ7015_Lib/SCU/SCU_GIC.d ./ACZ7015_Lib/SCU/SCU_TIMER.d  ./ACZ7015_Lib/AXI_GPIO/AXI_GPIO.d  axi_goio.elf.size  axi_goio.elf
+' '
+15:30:00 **** Auto Build of configuration Debug for project axi_goio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.c:14:0:
+../src/COMMON.h:22:10: fatal error: PS_GPIO.h: No such file or directory
+ #include "PS_GPIO.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+15:30:48 **** Auto Build of configuration Debug for project axi_goio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+'Finished building: ../src/COMMON.c'
+' '
+'Building file: ../src/ISR.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"src/ISR.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ISR.d" -MT"src/ISR.o" -o "src/ISR.o" "../src/ISR.c"
+'Finished building: ../src/ISR.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:20:5: warning: implicit declaration of function 'PS_GPIO_Init'; did you mean 'AXI_GPIO_Init'? [-Wimplicit-function-declaration]
+     PS_GPIO_Init();
+     ^~~~~~~~~~~~
+     AXI_GPIO_Init
+../src/main.c:23:5: warning: implicit declaration of function 'PS_GPIO_SetMode'; did you mean 'AXI_GPIO_SetPin'? [-Wimplicit-function-declaration]
+     PS_GPIO_SetMode(PS_LED, OUTPUT, 0);
+     ^~~~~~~~~~~~~~~
+     AXI_GPIO_SetPin
+../src/main.c:34:17: warning: implicit declaration of function 'PS_GPIO_GetPort'; did you mean 'AXI_GPIO_GetPin'? [-Wimplicit-function-declaration]
+         State = PS_GPIO_GetPort(PS_KEY);
+                 ^~~~~~~~~~~~~~~
+                 AXI_GPIO_GetPin
+../src/main.c:36:9: warning: implicit declaration of function 'PS_GPIO_SetPort'; did you mean 'AXI_GPIO_SetPin'? [-Wimplicit-function-declaration]
+         PS_GPIO_SetPort(PL_LED,!State);
+         ^~~~~~~~~~~~~~~
+         AXI_GPIO_SetPin
+'Finished building: ../src/main.c'
+' '
+'Building file: ../ACZ7015_Lib/SCU/SCU_GIC.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/SCU/SCU_GIC.d" -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -o "ACZ7015_Lib/SCU/SCU_GIC.o" "../ACZ7015_Lib/SCU/SCU_GIC.c"
+'Finished building: ../ACZ7015_Lib/SCU/SCU_GIC.c'
+' '
+'Building file: ../ACZ7015_Lib/SCU/SCU_TIMER.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"ACZ7015_Lib/SCU/SCU_TIMER.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/SCU/SCU_TIMER.d" -MT"ACZ7015_Lib/SCU/SCU_TIMER.o" -o "ACZ7015_Lib/SCU/SCU_TIMER.o" "../ACZ7015_Lib/SCU/SCU_TIMER.c"
+'Finished building: ../ACZ7015_Lib/SCU/SCU_TIMER.c'
+' '
+'Building file: ../ACZ7015_Lib/AXI_GPIO/AXI_GPIO.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"ACZ7015_Lib/AXI_GPIO/AXI_GPIO.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/AXI_GPIO/AXI_GPIO.d" -MT"ACZ7015_Lib/AXI_GPIO/AXI_GPIO.o" -o "ACZ7015_Lib/AXI_GPIO/AXI_GPIO.o" "../ACZ7015_Lib/AXI_GPIO/AXI_GPIO.c"
+'Finished building: ../ACZ7015_Lib/AXI_GPIO/AXI_GPIO.c'
+' '
+'Building target: axi_goio.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../axi_goio_bsp/ps7_cortexa9_0/lib -o "axi_goio.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/AXI_GPIO/AXI_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\Debug/../src/main.c:20: undefined reference to `PS_GPIO_Init'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\Debug/../src/main.c:23: undefined reference to `PS_GPIO_SetMode'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\Debug/../src/main.c:25: undefined reference to `PS_GPIO_SetMode'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\Debug/../src/main.c:27: undefined reference to `PS_GPIO_SetMode'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\Debug/../src/main.c:29: undefined reference to `PS_GPIO_SetMode'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\Debug/../src/main.c:34: undefined reference to `PS_GPIO_GetPort'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\Debug/../src/main.c:36: undefined reference to `PS_GPIO_SetPort'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\Debug/../src/main.c:38: undefined reference to `PS_GPIO_GetPort'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\Debug/../src/main.c:40: undefined reference to `PS_GPIO_SetPort'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:43: axi_goio.elf] Error 1
+15:31:10 **** Auto Build of configuration Debug for project axi_goio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:17:8: warning: unused variable 'State' [-Wunused-variable]
+     u8 State;
+        ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: axi_goio.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../axi_goio_bsp/ps7_cortexa9_0/lib -o "axi_goio.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/AXI_GPIO/AXI_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: axi_goio.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size axi_goio.elf  |tee "axi_goio.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27000	   1944	  22632	  51576	   c978	axi_goio.elf
+'Finished building: axi_goio.elf.size'
+' '
+15:32:44 **** Auto Build of configuration Debug for project axi_goio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:6:30: error: 'GPIO_0_ID' undeclared (first use in this function); did you mean 'XGPIO_L_H'?
+     AXI_GPIO_Init(&AXI_GPIO0,GPIO_0_ID);    //初始化AXI GPIO0
+                              ^~~~~~~~~
+                              XGPIO_L_H
+../src/main.c:6:30: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+15:33:05 **** Auto Build of configuration Debug for project axi_goio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:7:30: error: 'GPIO_0_ID' undeclared (first use in this function); did you mean 'XGPIO_L_H'?
+     AXI_GPIO_Init(&AXI_GPIO0,GPIO_0_ID);    //初始化AXI GPIO0
+                              ^~~~~~~~~
+                              XGPIO_L_H
+../src/main.c:7:30: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+15:37:33 **** Auto Build of configuration Debug for project axi_goio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+'Finished building: ../src/COMMON.c'
+' '
+'Building file: ../src/ISR.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"src/ISR.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ISR.d" -MT"src/ISR.o" -o "src/ISR.o" "../src/ISR.c"
+'Finished building: ../src/ISR.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../ACZ7015_Lib/SCU/SCU_GIC.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/SCU/SCU_GIC.d" -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -o "ACZ7015_Lib/SCU/SCU_GIC.o" "../ACZ7015_Lib/SCU/SCU_GIC.c"
+'Finished building: ../ACZ7015_Lib/SCU/SCU_GIC.c'
+' '
+'Building file: ../ACZ7015_Lib/SCU/SCU_TIMER.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"ACZ7015_Lib/SCU/SCU_TIMER.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/SCU/SCU_TIMER.d" -MT"ACZ7015_Lib/SCU/SCU_TIMER.o" -o "ACZ7015_Lib/SCU/SCU_TIMER.o" "../ACZ7015_Lib/SCU/SCU_TIMER.c"
+'Finished building: ../ACZ7015_Lib/SCU/SCU_TIMER.c'
+' '
+'Building file: ../ACZ7015_Lib/AXI_GPIO/AXI_GPIO.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"ACZ7015_Lib/AXI_GPIO/AXI_GPIO.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/AXI_GPIO/AXI_GPIO.d" -MT"ACZ7015_Lib/AXI_GPIO/AXI_GPIO.o" -o "ACZ7015_Lib/AXI_GPIO/AXI_GPIO.o" "../ACZ7015_Lib/AXI_GPIO/AXI_GPIO.c"
+'Finished building: ../ACZ7015_Lib/AXI_GPIO/AXI_GPIO.c'
+' '
+'Building target: axi_goio.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../axi_goio_bsp/ps7_cortexa9_0/lib -o "axi_goio.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/AXI_GPIO/AXI_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: axi_goio.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size axi_goio.elf  |tee "axi_goio.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27088	   1944	  22632	  51664	   c9d0	axi_goio.elf
+'Finished building: axi_goio.elf.size'
+' '
+15:40:16 **** Auto Build of configuration Debug for project axi_goio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: axi_goio.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../axi_goio_bsp/ps7_cortexa9_0/lib -o "axi_goio.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/AXI_GPIO/AXI_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: axi_goio.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size axi_goio.elf  |tee "axi_goio.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27088	   1944	  22632	  51664	   c9d0	axi_goio.elf
+'Finished building: axi_goio.elf.size'
+' '
+15:40:19 **** Auto Build of configuration Debug for project axi_goio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: axi_goio.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../axi_goio_bsp/ps7_cortexa9_0/lib -o "axi_goio.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/AXI_GPIO/AXI_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: axi_goio.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size axi_goio.elf  |tee "axi_goio.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27088	   1944	  22632	  51664	   c9d0	axi_goio.elf
+'Finished building: axi_goio.elf.size'
+' '
+17:39:40 **** Auto Build of configuration Debug for project axi_goio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../axi_goio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\axi_gpio\axi_gpio.sdk\axi_goio\ACZ7015_Lib\AXI_GPIO" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: axi_goio.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../axi_goio_bsp/ps7_cortexa9_0/lib -o "axi_goio.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/AXI_GPIO/AXI_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: axi_goio.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size axi_goio.elf  |tee "axi_goio.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27088	   1944	  22632	  51664	   c9d0	axi_goio.elf
+'Finished building: axi_goio.elf.size'
+' '

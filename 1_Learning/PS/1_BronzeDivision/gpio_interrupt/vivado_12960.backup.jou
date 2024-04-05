@@ -1,0 +1,209 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Apr  3 17:39:33 2024
+# Process ID: 12960
+# Current directory: D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25524 D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_interrupt\gpio_interrupt.xpr
+# Log file: D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/vivado.log
+# Journal file: D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd}
+startgroup
+set_property -dict [list CONFIG.PCW_USB_RESET_ENABLE {0} CONFIG.PCW_I2C_RESET_ENABLE {0} CONFIG.PCW_GPIO_MIO_GPIO_ENABLE {1} CONFIG.PCW_GPIO_EMIO_GPIO_ENABLE {1} CONFIG.PCW_GPIO_EMIO_GPIO_IO {2}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins processing_system7_0/GPIO_0]
+endgroup
+validate_bd_design
+generate_target all [get_files  D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_processing_system7_0_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+export_ip_user_files -of_objects [get_files D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd]
+launch_runs -jobs 8 {system_processing_system7_0_0_synth_1 system_auto_pc_0_synth_1}
+export_simulation -of_objects [get_files D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd] -directory D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.ip_user_files/sim_scripts -ip_user_files_dir D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.ip_user_files -ipstatic_source_dir D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/NEW/TYUT/FPGA/Vivado/Vivado_library} {questa=D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.cache/compile_simlib/questa} {riviera=D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.cache/compile_simlib/riviera} {activehdl=D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+file copy -force D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.runs/impl_1/system_wrapper.sysdef D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.sdk/system_wrapper.hdf
+
+launch_sdk -workspace D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.sdk -hwspec D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.sdk/system_wrapper.hdf
+wait_on_run system_processing_system7_0_0_synth_1
+wait_on_run system_auto_pc_0_synth_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd]
+synth_design -rtl -name rtl_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list {GPIO_0_0_tri_io[1]} {GPIO_0_0_tri_io[0]}]]
+open_bd_design {D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd}
+reset_run synth_1
+export_ip_user_files -of_objects  [get_files D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/constrs_1/new/axi_gpio.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/constrs_1/new/axi_gpio.xdc
+file delete -force D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/constrs_1/new/axi_gpio.xdc
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd]
+refresh_design
+open_bd_design {D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd}
+startgroup
+set_property -dict [list CONFIG.PCW_USE_M_AXI_GP0 {1} CONFIG.PCW_ENET1_PERIPHERAL_ENABLE {0}] [get_bd_cells processing_system7_0]
+endgroup
+place_ports {GPIO_0_0_tri_io[0]} R4
+place_ports {GPIO_0_0_tri_io[1]} P7
+place_ports {gpio_rtl_0_tri_io[0]} AB22
+place_ports {gpio_rtl_0_tri_io[1]} AB21
+place_ports {gpio_rtl_0_tri_io[2]} AA20
+place_ports {gpio_rtl_0_tri_io[3]} AA19
+place_ports {gpio_rtl_0_tri_io[4]} AB19
+place_ports {gpio_rtl_0_tri_io[5]} AB18
+place_ports {gpio_rtl_0_tri_io[6]} Y19
+place_ports {gpio_rtl_0_tri_io[7]} Y18
+set_property IOSTANDARD LVCMOS33 [get_ports [list {gpio_rtl_0_tri_io[7]} {gpio_rtl_0_tri_io[6]} {gpio_rtl_0_tri_io[5]} {gpio_rtl_0_tri_io[4]} {gpio_rtl_0_tri_io[3]} {gpio_rtl_0_tri_io[2]} {gpio_rtl_0_tri_io[1]} {gpio_rtl_0_tri_io[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {GPIO_0_0_tri_io[1]} {GPIO_0_0_tri_io[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {gpio_rtl_1_tri_io[7]} {gpio_rtl_1_tri_io[6]} {gpio_rtl_1_tri_io[5]} {gpio_rtl_1_tri_io[4]} {gpio_rtl_1_tri_io[3]} {gpio_rtl_1_tri_io[2]} {gpio_rtl_1_tri_io[1]} {gpio_rtl_1_tri_io[0]}]]
+place_ports {gpio_rtl_1_tri_io[0]} AB14
+place_ports {gpio_rtl_1_tri_io[1]} AA14
+place_ports {gpio_rtl_1_tri_io[2]} AA15
+place_ports {gpio_rtl_1_tri_io[3]} AA12
+place_ports {gpio_rtl_1_tri_io[4]} R17
+place_ports {gpio_rtl_1_tri_io[5]} T17
+place_ports {gpio_rtl_1_tri_io[6]} U19
+place_ports {gpio_rtl_1_tri_io[7]} V19
+set_property DRIVE 12 [get_ports [list {GPIO_0_0_tri_io[1]} {GPIO_0_0_tri_io[0]}]]
+close [ open D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/constrs_1/new/gpio_interrupt.xdc w ]
+add_files -fileset constrs_1 D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/constrs_1/new/gpio_interrupt.xdc
+set_property target_constrs_file D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/constrs_1/new/gpio_interrupt.xdc [current_fileset -constrset]
+save_constraints -force
+save_bd_design
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+file copy -force D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.runs/impl_1/system_wrapper.sysdef D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.sdk/system_wrapper.hdf
+
+launch_sdk -workspace D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.sdk -hwspec D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.sdk/system_wrapper.hdf
+open_bd_design {D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd}
+startgroup
+set_property -dict [list CONFIG.C_INTERRUPT_PRESENT {1}] [get_bd_cells axi_gpio_0]
+endgroup
+validate_bd_design
+startgroup
+set_property -dict [list CONFIG.PCW_USE_FABRIC_INTERRUPT {1} CONFIG.PCW_IRQ_F2P_INTR {1}] [get_bd_cells processing_system7_0]
+endgroup
+connect_bd_net [get_bd_pins axi_gpio_0/ip2intc_irpt] [get_bd_pins processing_system7_0/IRQ_F2P]
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+generate_target all [get_files  D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_processing_system7_0_0] }
+catch { config_ip_cache -export [get_ips -all system_axi_gpio_0_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+export_ip_user_files -of_objects [get_files D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd]
+launch_runs -jobs 8 {system_processing_system7_0_0_synth_1 system_axi_gpio_0_0_synth_1}
+export_simulation -of_objects [get_files D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd] -directory D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.ip_user_files/sim_scripts -ip_user_files_dir D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.ip_user_files -ipstatic_source_dir D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/NEW/TYUT/FPGA/Vivado/Vivado_library} {questa=D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.cache/compile_simlib/questa} {riviera=D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.cache/compile_simlib/riviera} {activehdl=D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+file copy -force D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.runs/impl_1/system_wrapper.sysdef D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.sdk/system_wrapper.hdf
+
+place_ports {gpio_rtl_0_tri_io[0]} AB12
+save_constraints -force
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+file copy -force D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.runs/impl_1/system_wrapper.sysdef D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.sdk/system_wrapper.hdf
+
+open_bd_design {D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd}
+startgroup
+set_property -dict [list CONFIG.C_GPIO_WIDTH {5} CONFIG.C_GPIO2_WIDTH {5}] [get_bd_cells axi_gpio_0]
+endgroup
+validate_bd_design
+save_bd_design
+close_bd_design [get_bd_designs system]
+current_design rtl_1
+reset_run system_axi_gpio_0_0_synth_1
+launch_runs system_axi_gpio_0_0_synth_1
+wait_on_run system_axi_gpio_0_0_synth_1
+generate_target all [get_files D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd]
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd]
+launch_runs system_auto_pc_0_synth_1
+wait_on_run system_auto_pc_0_synth_1
+refresh_design
+set_property IOSTANDARD LVCMOS33 [get_ports [list {GPIO_0_0_tri_io[1]} {GPIO_0_0_tri_io[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {gpio_rtl_0_tri_io[4]} {gpio_rtl_0_tri_io[3]} {gpio_rtl_0_tri_io[2]} {gpio_rtl_0_tri_io[1]} {gpio_rtl_0_tri_io[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {gpio_rtl_1_tri_io[4]} {gpio_rtl_1_tri_io[3]} {gpio_rtl_1_tri_io[2]} {gpio_rtl_1_tri_io[1]} {gpio_rtl_1_tri_io[0]}]]
+place_ports {gpio_rtl_0_tri_io[0]} AB12
+place_ports {gpio_rtl_0_tri_io[1]} V11
+place_ports {gpio_rtl_0_tri_io[2]} W11
+place_ports {gpio_rtl_0_tri_io[3]} AA11
+place_ports {gpio_rtl_0_tri_io[4]} AB11
+place_ports {gpio_rtl_1_tri_io[0]} AB14
+place_ports {gpio_rtl_1_tri_io[1]} AA14
+place_ports {gpio_rtl_1_tri_io[2]} AA15
+place_ports {gpio_rtl_1_tri_io[3]} AA12
+place_ports {gpio_rtl_1_tri_io[4]} R17
+save_constraints
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+file copy -force D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.runs/impl_1/system_wrapper.sysdef D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.sdk/system_wrapper.hdf
+
+open_bd_design {D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd}
+startgroup
+endgroup
+startgroup
+set_property -dict [list CONFIG.C_GPIO_WIDTH {1} CONFIG.C_GPIO2_WIDTH {1}] [get_bd_cells axi_gpio_0]
+endgroup
+validate_bd_design
+reset_run system_axi_gpio_0_0_synth_1
+launch_runs system_axi_gpio_0_0_synth_1
+wait_on_run system_axi_gpio_0_0_synth_1
+generate_target all [get_files D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd]
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd]
+launch_runs system_auto_pc_0_synth_1
+wait_on_run system_auto_pc_0_synth_1
+refresh_design
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd]
+refresh_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+file copy -force D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.runs/impl_1/system_wrapper.sysdef D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.sdk/system_wrapper.hdf
+
+launch_sdk -workspace D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.sdk -hwspec D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.sdk/system_wrapper.hdf
+open_bd_design {D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd}
+startgroup
+set_property -dict [list CONFIG.C_GPIO_WIDTH {2}] [get_bd_cells axi_gpio_0]
+endgroup
+reset_run system_axi_gpio_0_0_synth_1
+launch_runs system_axi_gpio_0_0_synth_1
+wait_on_run system_axi_gpio_0_0_synth_1
+generate_target all [get_files D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd]
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd]
+launch_runs system_auto_pc_0_synth_1
+wait_on_run system_auto_pc_0_synth_1
+refresh_design
+set_property IOSTANDARD LVCMOS33 [get_ports [list {gpio_rtl_0_tri_io[1]}]]
+place_ports {gpio_rtl_0_tri_io[1]} V11
+save_constraints
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+file copy -force D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.runs/impl_1/system_wrapper.sysdef D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.sdk/system_wrapper.hdf
+
+open_bd_design {D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd}
+startgroup
+set_property -dict [list CONFIG.PCW_TTC0_PERIPHERAL_ENABLE {1}] [get_bd_cells processing_system7_0]
+endgroup
+validate_bd_design
+generate_target all [get_files  D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd]
+catch { config_ip_cache -export [get_ips -all system_processing_system7_0_0] }
+catch { config_ip_cache -export [get_ips -all system_auto_pc_0] }
+export_ip_user_files -of_objects [get_files D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd]
+launch_runs -jobs 8 system_processing_system7_0_0_synth_1
+export_simulation -of_objects [get_files D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.srcs/sources_1/bd/system/system.bd] -directory D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.ip_user_files/sim_scripts -ip_user_files_dir D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.ip_user_files -ipstatic_source_dir D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/NEW/TYUT/FPGA/Vivado/Vivado_library} {questa=D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.cache/compile_simlib/questa} {riviera=D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.cache/compile_simlib/riviera} {activehdl=D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+file copy -force D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.runs/impl_1/system_wrapper.sysdef D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_interrupt/gpio_interrupt.sdk/system_wrapper.hdf
+

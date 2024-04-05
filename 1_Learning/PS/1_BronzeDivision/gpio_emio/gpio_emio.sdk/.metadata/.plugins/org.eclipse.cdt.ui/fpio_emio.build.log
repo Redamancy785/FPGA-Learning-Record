@@ -1,0 +1,23 @@
+11:55:53 **** Auto Build of configuration Debug for project fpio_emio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/mian.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../fpio_emio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\src" -c -fmessage-length=0 -MT"src/mian.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/mian.d" -MT"src/mian.o" -o "src/mian.o" "../src/mian.c"
+'Finished building: ../src/mian.c'
+' '
+'Building target: fpio_emio.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fpio_emio_bsp/ps7_cortexa9_0/lib -o "fpio_emio.elf"  ./src/COMMON.o ./src/ISR.o ./src/mian.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fpio_emio.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fpio_emio.elf  |tee "fpio_emio.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31708	   1936	  22648	  56292	   dbe4	fpio_emio.elf
+'Finished building: fpio_emio.elf.size'
+' '
+
+11:55:54 Build Finished (took 1s.195ms)
+

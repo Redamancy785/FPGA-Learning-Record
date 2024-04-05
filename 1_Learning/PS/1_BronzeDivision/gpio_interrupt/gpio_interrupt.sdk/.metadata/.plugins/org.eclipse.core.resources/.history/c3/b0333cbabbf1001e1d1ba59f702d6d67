@@ -1,0 +1,20 @@
+
+#include"COMMON.h"
+
+int main(void)
+{
+	//GIC 通用中断控制器初始化
+	ScuGic_Init();
+
+    while(1){
+
+    }
+    return 0;
+}
+
+
+
+
+
+
+

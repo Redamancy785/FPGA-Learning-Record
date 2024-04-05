@@ -1,0 +1,48 @@
+11:35:22 **** Auto Build of configuration Debug for project key_ctrl_led ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../key_ctrl_led_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\src" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+'Finished building: ../src/COMMON.c'
+' '
+'Building file: ../src/ISR.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../key_ctrl_led_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\src" -c -fmessage-length=0 -MT"src/ISR.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ISR.d" -MT"src/ISR.o" -o "src/ISR.o" "../src/ISR.c"
+'Finished building: ../src/ISR.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../key_ctrl_led_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\src" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../ACZ7015_Lib/SCU/SCU_GIC.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../key_ctrl_led_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\src" -c -fmessage-length=0 -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/SCU/SCU_GIC.d" -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -o "ACZ7015_Lib/SCU/SCU_GIC.o" "../ACZ7015_Lib/SCU/SCU_GIC.c"
+'Finished building: ../ACZ7015_Lib/SCU/SCU_GIC.c'
+' '
+'Building file: ../ACZ7015_Lib/SCU/SCU_TIMER.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../key_ctrl_led_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\src" -c -fmessage-length=0 -MT"ACZ7015_Lib/SCU/SCU_TIMER.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/SCU/SCU_TIMER.d" -MT"ACZ7015_Lib/SCU/SCU_TIMER.o" -o "ACZ7015_Lib/SCU/SCU_TIMER.o" "../ACZ7015_Lib/SCU/SCU_TIMER.c"
+'Finished building: ../ACZ7015_Lib/SCU/SCU_TIMER.c'
+' '
+'Building file: ../ACZ7015_Lib/PS_GPIO/PS_GPIO.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../key_ctrl_led_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\key_ctrl_led\key_ctrl_led.sdk\key_ctrl_led\src" -c -fmessage-length=0 -MT"ACZ7015_Lib/PS_GPIO/PS_GPIO.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/PS_GPIO/PS_GPIO.d" -MT"ACZ7015_Lib/PS_GPIO/PS_GPIO.o" -o "ACZ7015_Lib/PS_GPIO/PS_GPIO.o" "../ACZ7015_Lib/PS_GPIO/PS_GPIO.c"
+'Finished building: ../ACZ7015_Lib/PS_GPIO/PS_GPIO.c'
+' '
+'Building target: key_ctrl_led.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../key_ctrl_led_bsp/ps7_cortexa9_0/lib -o "key_ctrl_led.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: key_ctrl_led.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size key_ctrl_led.elf  |tee "key_ctrl_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31788	   1936	  22648	  56372	   dc34	key_ctrl_led.elf
+'Finished building: key_ctrl_led.elf.size'
+' '
+
+11:35:29 Build Finished (took 6s.668ms)
+

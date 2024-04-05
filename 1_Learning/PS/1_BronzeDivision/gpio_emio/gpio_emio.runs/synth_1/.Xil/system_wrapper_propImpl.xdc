@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/gpio_emio/gpio_emio.srcs/constrs_1/new/gpio_emio.xdc rfile:../../../gpio_emio.srcs/constrs_1/new/gpio_emio.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN P7 [get_ports {EMIO_tri_io[0]}]
+set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN R4 [get_ports {EMIO_tri_io[1]}]

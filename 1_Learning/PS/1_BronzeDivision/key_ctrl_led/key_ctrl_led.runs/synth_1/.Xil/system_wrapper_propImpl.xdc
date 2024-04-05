@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:D:/NEW/TYUT/FPGA/Code/1_Learning/PS/1_BronzeDivision/key_ctrl_led/key_ctrl_led.srcs/constrs_1/new/key_ctrl_led.xdc rfile:../../../key_ctrl_led.srcs/constrs_1/new/key_ctrl_led.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN P7 [get_ports {GPIO_0_0_tri_io[0]}]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN R4 [get_ports {GPIO_0_0_tri_io[1]}]

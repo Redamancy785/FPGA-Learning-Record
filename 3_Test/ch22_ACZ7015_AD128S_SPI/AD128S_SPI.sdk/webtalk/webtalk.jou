@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Fri Aug 11 17:11:09 2023
+# Process ID: 14688
+# Current directory: D:/work/waresoft/Vivado/workspace/ch22_ACZ7015AD128S_SPI/AD128S_SPI.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/work/waresoft/Vivado/workspace/ch22_ACZ7015AD128S_SPI/AD128S_SPI.sdk/webtalk/webtalk.log
+# Journal file: D:/work/waresoft/Vivado/workspace/ch22_ACZ7015AD128S_SPI/AD128S_SPI.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

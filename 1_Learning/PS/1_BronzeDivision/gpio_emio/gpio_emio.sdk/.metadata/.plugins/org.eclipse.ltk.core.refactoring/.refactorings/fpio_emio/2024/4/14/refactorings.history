@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;fpio_emio/src/COMMOM.h&apos; to &apos;COMMON.h&apos;" description="Rename resource &apos;COMMOM.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/COMMOM.h" name="COMMON.h" stamp="1712067616052" updateReferences="true"/>
+</session>

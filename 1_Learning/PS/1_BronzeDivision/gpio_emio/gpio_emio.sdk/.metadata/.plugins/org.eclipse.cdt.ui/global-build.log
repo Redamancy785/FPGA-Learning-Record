@@ -1,0 +1,348 @@
+22:10:10 **** Build of project fpio_emio_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project fpio_emio ****
+
+Nothing to build for project fpio_emio
+22:10:35 **** Auto Build of configuration Debug for project fpio_emio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/mian.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mian.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fpio_emio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mian.d" -MT"src/mian.o" -o "src/mian.o" "../src/mian.c"
+'Finished building: ../src/mian.c'
+' '
+'Building target: fpio_emio.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fpio_emio_bsp/ps7_cortexa9_0/lib -o "fpio_emio.elf"  ./src/mian.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../fpio_emio_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: fpio_emio.elf] Error 1
+22:13:14 **** Auto Build of configuration Debug for project fpio_emio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/mian.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mian.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fpio_emio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mian.d" -MT"src/mian.o" -o "src/mian.o" "../src/mian.c"
+../src/mian.c:13:10: fatal error: COMMON.h: No such file or directory
+ #include "COMMON.h"
+          ^~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/mian.o] Error 1
+22:17:33 **** Auto Build of configuration Debug for project fpio_emio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/mian.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mian.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fpio_emio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mian.d" -MT"src/mian.o" -o "src/mian.o" "../src/mian.c"
+../src/mian.c:13:10: fatal error: COMMON.h: No such file or directory
+ #include "COMMON.h"
+          ^~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/mian.o] Error 1
+22:18:04 **** Auto Build of configuration Debug for project fpio_emio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/mian.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mian.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fpio_emio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mian.d" -MT"src/mian.o" -o "src/mian.o" "../src/mian.c"
+../src/mian.c:13:10: fatal error: COMMON.h: No such file or directory
+ #include "COMMON.h"
+          ^~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/mian.o] Error 1
+22:19:23 **** Auto Build of configuration Debug for project fpio_emio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/mian.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mian.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fpio_emio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mian.d" -MT"src/mian.o" -o "src/mian.o" "../src/mian.c"
+../src/mian.c:13:10: fatal error: COMMON.h: No such file or directory
+ #include "COMMON.h"
+          ^~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/mian.o] Error 1
+22:19:29 **** Auto Build of configuration Debug for project fpio_emio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/mian.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mian.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fpio_emio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mian.d" -MT"src/mian.o" -o "src/mian.o" "../src/mian.c"
+../src/mian.c:13:10: fatal error: COMMON.h: No such file or directory
+ #include "COMMON.h"
+          ^~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/mian.o] Error 1
+22:20:16 **** Clean-only build of configuration Debug for project fpio_emio ****
+make clean 
+rm -rf  ./src/mian.o  ./src/mian.d  fpio_emio.elf.size  fpio_emio.elf
+' '
+22:20:16 **** Auto Build of configuration Debug for project fpio_emio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/mian.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mian.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fpio_emio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mian.d" -MT"src/mian.o" -o "src/mian.o" "../src/mian.c"
+../src/mian.c: In function 'main':
+../src/mian.c:18:5: warning: implicit declaration of function 'PS_GPIO_Init'; did you mean 'XPS_GPIO_INT_ID'? [-Wimplicit-function-declaration]
+     PS_GPIO_Init(); //初始化PS端MIO和EMIO
+     ^~~~~~~~~~~~
+     XPS_GPIO_INT_ID
+../src/mian.c:22:5: warning: implicit declaration of function 'PS_GPIO_SetMode' [-Wimplicit-function-declaration]
+     PS_GPIO_SetMode(PL_LED, OUTPUT, 0);
+     ^~~~~~~~~~~~~~~
+../src/mian.c:29:9: error: 'State' undeclared (first use in this function); did you mean 'XStatus'?
+         State = PS_GPIO_GetPort(PS_KEY);
+         ^~~~~
+         XStatus
+../src/mian.c:29:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/mian.c:29:17: warning: implicit declaration of function 'PS_GPIO_GetPort' [-Wimplicit-function-declaration]
+         State = PS_GPIO_GetPort(PS_KEY);
+                 ^~~~~~~~~~~~~~~
+../src/mian.c:31:9: warning: implicit declaration of function 'PS_GPIO_SetPort' [-Wimplicit-function-declaration]
+         PS_GPIO_SetPort(PL_LED,!State);
+         ^~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/mian.o] Error 1
+11:47:42 **** Auto Build of configuration Debug for project fpio_emio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fpio_emio_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.c:14:0:
+../src/COMMON.h:22:10: fatal error: PS_GPIO.h: No such file or directory
+ #include "PS_GPIO.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+11:50:27 **** Clean-only build of configuration Debug for project fpio_emio ****
+make clean 
+rm -rf  ./src/COMMON.o ./src/ISR.o ./src/mian.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.o  ./src/COMMON.d ./src/ISR.d ./src/mian.d  ./ACZ7015_Lib/SCU/SCU_GIC.d ./ACZ7015_Lib/SCU/SCU_TIMER.d  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.d  fpio_emio.elf.size  fpio_emio.elf
+' '
+11:50:28 **** Auto Build of configuration Debug for project fpio_emio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../fpio_emio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\src" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+'Finished building: ../src/COMMON.c'
+' '
+'Building file: ../src/ISR.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../fpio_emio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\src" -c -fmessage-length=0 -MT"src/ISR.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ISR.d" -MT"src/ISR.o" -o "src/ISR.o" "../src/ISR.c"
+'Finished building: ../src/ISR.c'
+' '
+'Building file: ../src/mian.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../fpio_emio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\src" -c -fmessage-length=0 -MT"src/mian.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/mian.d" -MT"src/mian.o" -o "src/mian.o" "../src/mian.c"
+../src/mian.c: In function 'main':
+../src/mian.c:29:9: error: 'State' undeclared (first use in this function); did you mean 'XStatus'?
+         State = PS_GPIO_GetPort(PS_KEY);
+         ^~~~~
+         XStatus
+../src/mian.c:29:9: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:29: src/mian.o] Error 1
+11:50:57 **** Auto Build of configuration Debug for project fpio_emio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../fpio_emio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\src" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+'Finished building: ../src/COMMON.c'
+' '
+'Building file: ../src/ISR.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../fpio_emio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\src" -c -fmessage-length=0 -MT"src/ISR.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ISR.d" -MT"src/ISR.o" -o "src/ISR.o" "../src/ISR.c"
+'Finished building: ../src/ISR.c'
+' '
+'Building file: ../src/mian.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../fpio_emio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\src" -c -fmessage-length=0 -MT"src/mian.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/mian.d" -MT"src/mian.o" -o "src/mian.o" "../src/mian.c"
+../src/mian.c: In function 'main':
+../src/mian.c:23:21: error: 'PS_KEY' undeclared (first use in this function); did you mean 'PL_KEY'?
+     PS_GPIO_SetMode(PS_KEY, INPUT, 0); //设置PS_KEY(MIO47)方向为输入
+                     ^~~~~~
+                     PL_KEY
+../src/mian.c:23:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/mian.c:29:9: error: 'State' undeclared (first use in this function); did you mean 'XStatus'?
+         State = PS_GPIO_GetPort(PS_KEY);
+         ^~~~~
+         XStatus
+../src/mian.c:35:25: error: 'PS_LED' undeclared (first use in this function); did you mean 'PL_LED'?
+         PS_GPIO_SetPort(PS_LED,!State);
+                         ^~~~~~
+                         PL_LED
+make: *** [src/subdir.mk:29: src/mian.o] Error 1
+11:54:19 **** Auto Build of configuration Debug for project fpio_emio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/mian.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../fpio_emio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\src" -c -fmessage-length=0 -MT"src/mian.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/mian.d" -MT"src/mian.o" -o "src/mian.o" "../src/mian.c"
+'Finished building: ../src/mian.c'
+' '
+'Building file: ../ACZ7015_Lib/SCU/SCU_GIC.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../fpio_emio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\src" -c -fmessage-length=0 -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/SCU/SCU_GIC.d" -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -o "ACZ7015_Lib/SCU/SCU_GIC.o" "../ACZ7015_Lib/SCU/SCU_GIC.c"
+'Finished building: ../ACZ7015_Lib/SCU/SCU_GIC.c'
+' '
+'Building file: ../ACZ7015_Lib/SCU/SCU_TIMER.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../fpio_emio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\src" -c -fmessage-length=0 -MT"ACZ7015_Lib/SCU/SCU_TIMER.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/SCU/SCU_TIMER.d" -MT"ACZ7015_Lib/SCU/SCU_TIMER.o" -o "ACZ7015_Lib/SCU/SCU_TIMER.o" "../ACZ7015_Lib/SCU/SCU_TIMER.c"
+'Finished building: ../ACZ7015_Lib/SCU/SCU_TIMER.c'
+' '
+'Building file: ../ACZ7015_Lib/PS_GPIO/PS_GPIO.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../fpio_emio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\src" -c -fmessage-length=0 -MT"ACZ7015_Lib/PS_GPIO/PS_GPIO.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/PS_GPIO/PS_GPIO.d" -MT"ACZ7015_Lib/PS_GPIO/PS_GPIO.o" -o "ACZ7015_Lib/PS_GPIO/PS_GPIO.o" "../ACZ7015_Lib/PS_GPIO/PS_GPIO.c"
+'Finished building: ../ACZ7015_Lib/PS_GPIO/PS_GPIO.c'
+' '
+'Building target: fpio_emio.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fpio_emio_bsp/ps7_cortexa9_0/lib -o "fpio_emio.elf"  ./src/COMMON.o ./src/ISR.o ./src/mian.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fpio_emio.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fpio_emio.elf  |tee "fpio_emio.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31652	   1936	  22648	  56236	   dbac	fpio_emio.elf
+'Finished building: fpio_emio.elf.size'
+' '
+11:55:34 **** Auto Build of configuration Debug for project fpio_emio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/mian.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../fpio_emio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\src" -c -fmessage-length=0 -MT"src/mian.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/mian.d" -MT"src/mian.o" -o "src/mian.o" "../src/mian.c"
+../src/mian.c: In function 'main':
+../src/mian.c:38:6: error: 'State' undeclared (first use in this function); did you mean 'XStatus'?
+      State = PS_GPIO_GetPort(PL_KEY);
+      ^~~~~
+      XStatus
+../src/mian.c:38:6: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:29: src/mian.o] Error 1
+11:55:40 **** Auto Build of configuration Debug for project fpio_emio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/mian.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../fpio_emio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\src" -c -fmessage-length=0 -MT"src/mian.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/mian.d" -MT"src/mian.o" -o "src/mian.o" "../src/mian.c"
+'Finished building: ../src/mian.c'
+' '
+'Building target: fpio_emio.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fpio_emio_bsp/ps7_cortexa9_0/lib -o "fpio_emio.elf"  ./src/COMMON.o ./src/ISR.o ./src/mian.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fpio_emio.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fpio_emio.elf  |tee "fpio_emio.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31708	   1936	  22648	  56292	   dbe4	fpio_emio.elf
+'Finished building: fpio_emio.elf.size'
+' '
+11:55:53 **** Auto Build of configuration Debug for project fpio_emio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/mian.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../fpio_emio_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\ACZ7015_Lib\SCU" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\gpio_emio\gpio_emio.sdk\fpio_emio\src" -c -fmessage-length=0 -MT"src/mian.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/mian.d" -MT"src/mian.o" -o "src/mian.o" "../src/mian.c"
+'Finished building: ../src/mian.c'
+' '
+'Building target: fpio_emio.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fpio_emio_bsp/ps7_cortexa9_0/lib -o "fpio_emio.elf"  ./src/COMMON.o ./src/ISR.o ./src/mian.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fpio_emio.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fpio_emio.elf  |tee "fpio_emio.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31708	   1936	  22648	  56292	   dbe4	fpio_emio.elf
+'Finished building: fpio_emio.elf.size'
+' '

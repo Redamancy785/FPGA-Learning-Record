@@ -1,0 +1,23 @@
+17:46:09 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi_adc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size spi_adc.elf  |tee "spi_adc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79560	   3372	  23472	 106404	  19fa4	spi_adc.elf
+'Finished building: spi_adc.elf.size'
+' '
+
+17:46:10 Build Finished (took 1s.313ms)
+

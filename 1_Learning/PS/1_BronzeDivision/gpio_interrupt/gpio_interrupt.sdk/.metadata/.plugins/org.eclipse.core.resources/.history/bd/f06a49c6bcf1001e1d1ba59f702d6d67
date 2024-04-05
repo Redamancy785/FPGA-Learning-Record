@@ -1,0 +1,27 @@
+
+#include"COMMON.h"
+
+int main(void)
+{
+
+	//初始化 PS 端 GPIO
+	PS_GPIO_Init();
+
+	//设置 PS_KEY(MIO47)方向为输入
+	PS_GPIO_SetMode(PS_KEY, INPUT, 0);
+
+
+
+
+    while(1){
+
+    }
+    return 0;
+}
+
+
+
+
+
+
+

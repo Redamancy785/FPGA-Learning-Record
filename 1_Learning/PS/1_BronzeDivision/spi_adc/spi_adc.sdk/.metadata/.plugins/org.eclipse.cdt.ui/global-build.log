@@ -1,0 +1,700 @@
+16:13:45 **** Build of project spi_adc_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/spips_v3_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/spips_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_1/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/spips_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling spips"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+D:/NEW/TYUT/Vivado/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project spi_adc ****
+
+Nothing to build for project spi_adc
+16:15:16 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../spi_adc_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.c:14:0:
+../src/COMMON.h:23:10: fatal error: PS_SPI.h: No such file or directory
+ #include "PS_SPI.h"
+          ^~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+16:16:02 **** Clean-only build of configuration Debug for project spi_adc ****
+make clean 
+rm -rf  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.o  ./src/COMMON.d ./src/ISR.d ./src/main.d  ./ACZ7015_Lib/SCU/SCU_GIC.d ./ACZ7015_Lib/SCU/SCU_TIMER.d  ./ACZ7015_Lib/PS_SPI/PS_SPI.d  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.d  spi_adc.elf.size  spi_adc.elf
+' '
+16:16:02 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_GPIO" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.h:25:0,
+                 from ../src/COMMON.c:14:
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_GPIO/PS_GPIO.h:4:10: fatal error: xgpiops.h: No such file or directory
+ #include "xgpiops.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+16:19:13 **** Clean-only build of configuration Debug for project spi_adc ****
+make clean 
+rm -rf  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.o  ./src/COMMON.d ./src/ISR.d ./src/main.d  ./ACZ7015_Lib/SCU/SCU_GIC.d ./ACZ7015_Lib/SCU/SCU_TIMER.d  ./ACZ7015_Lib/PS_SPI/PS_SPI.d  ./ACZ7015_Lib/PS_GPIO/PS_GPIO.d  spi_adc.elf.size  spi_adc.elf
+' '
+16:19:13 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.c:14:0:
+../src/COMMON.h:25:10: fatal error: PS_GPIO.h: No such file or directory
+ #include "PS_GPIO.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+16:19:29 **** Clean-only build of configuration Debug for project spi_adc ****
+make clean 
+rm -rf  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o  ./src/COMMON.d ./src/ISR.d ./src/main.d  ./ACZ7015_Lib/SCU/SCU_GIC.d ./ACZ7015_Lib/SCU/SCU_TIMER.d  ./ACZ7015_Lib/PS_SPI/PS_SPI.d  spi_adc.elf.size  spi_adc.elf
+' '
+16:19:29 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.c:14:0:
+../src/COMMON.h:25:10: fatal error: PS_GPIO.h: No such file or directory
+ #include "PS_GPIO.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+16:19:46 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+'Finished building: ../src/COMMON.c'
+' '
+'Building file: ../src/ISR.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/ISR.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ISR.d" -MT"src/ISR.o" -o "src/ISR.o" "../src/ISR.c"
+../src/ISR.c: In function 'ScuTimer_IRQ_Handler':
+../src/ISR.c:37:11: warning: implicit declaration of function 'PS_GPIO_GetPort' [-Wimplicit-function-declaration]
+      if((!PS_GPIO_GetPort(54)) && ADC_Channel < 7)
+           ^~~~~~~~~~~~~~~
+'Finished building: ../src/ISR.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:18:10: fatal error: PS_GPIO.h: No such file or directory
+ #include "PS_GPIO.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+16:27:24 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:43:21: error: 'XPAR_XSPIPS_1_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_XSPIPS_0_DEVICE_ID'?
+  PS_SPI_Init(&SPI1, XPAR_XSPIPS_1_DEVICE_ID, XSPIPS_CLK_PRESCALE_8, XSPIPS_MASTER_OPTION | XSPIPS_FORCE_SSELECT_OPTION);
+                     ^~~~~~~~~~~~~~~~~~~~~~~
+                     XPAR_XSPIPS_0_DEVICE_ID
+../src/main.c:43:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:44:2: warning: implicit declaration of function 'PS_GPIO_Init'; did you mean 'PS_SPI_Init'? [-Wimplicit-function-declaration]
+  PS_GPIO_Init(); //初始化PS端的GPIO外设
+  ^~~~~~~~~~~~
+  PS_SPI_Init
+../src/main.c:45:2: warning: implicit declaration of function 'PS_GPIO_SetMode' [-Wimplicit-function-declaration]
+  PS_GPIO_SetMode(54, INPUT, 0); //初始化GPIO54，设置为输入
+  ^~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+16:27:28 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:38:21: error: 'XPAR_XSPIPS_1_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_XSPIPS_0_DEVICE_ID'?
+  PS_SPI_Init(&SPI1, XPAR_XSPIPS_1_DEVICE_ID, XSPIPS_CLK_PRESCALE_8, XSPIPS_MASTER_OPTION | XSPIPS_FORCE_SSELECT_OPTION);
+                     ^~~~~~~~~~~~~~~~~~~~~~~
+                     XPAR_XSPIPS_0_DEVICE_ID
+../src/main.c:38:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:39:2: warning: implicit declaration of function 'PS_GPIO_Init'; did you mean 'PS_SPI_Init'? [-Wimplicit-function-declaration]
+  PS_GPIO_Init(); //初始化PS端的GPIO外设
+  ^~~~~~~~~~~~
+  PS_SPI_Init
+../src/main.c:40:2: warning: implicit declaration of function 'PS_GPIO_SetMode' [-Wimplicit-function-declaration]
+  PS_GPIO_SetMode(54, INPUT, 0); //初始化GPIO54，设置为输入
+  ^~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+16:27:53 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../ACZ7015_Lib/SCU/SCU_GIC.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/SCU/SCU_GIC.d" -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -o "ACZ7015_Lib/SCU/SCU_GIC.o" "../ACZ7015_Lib/SCU/SCU_GIC.c"
+'Finished building: ../ACZ7015_Lib/SCU/SCU_GIC.c'
+' '
+'Building file: ../ACZ7015_Lib/SCU/SCU_TIMER.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"ACZ7015_Lib/SCU/SCU_TIMER.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/SCU/SCU_TIMER.d" -MT"ACZ7015_Lib/SCU/SCU_TIMER.o" -o "ACZ7015_Lib/SCU/SCU_TIMER.o" "../ACZ7015_Lib/SCU/SCU_TIMER.c"
+'Finished building: ../ACZ7015_Lib/SCU/SCU_TIMER.c'
+' '
+'Building file: ../ACZ7015_Lib/PS_SPI/PS_SPI.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"ACZ7015_Lib/PS_SPI/PS_SPI.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/PS_SPI/PS_SPI.d" -MT"ACZ7015_Lib/PS_SPI/PS_SPI.o" -o "ACZ7015_Lib/PS_SPI/PS_SPI.o" "../ACZ7015_Lib/PS_SPI/PS_SPI.c"
+'Finished building: ../ACZ7015_Lib/PS_SPI/PS_SPI.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/ISR.o: In function `ScuTimer_IRQ_Handler':
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\Debug/../src/ISR.c:37: undefined reference to `PS_GPIO_GetPort'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\Debug/../src/ISR.c:37: undefined reference to `ADC_Channel'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\Debug/../src/ISR.c:37: undefined reference to `ADC_Channel'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\Debug/../src/ISR.c:38: undefined reference to `ADC_Channel'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\Debug/../src/ISR.c:38: undefined reference to `ADC_Channel'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\Debug/../src/ISR.c:38: undefined reference to `ADC_Channel'
+./src/ISR.o:D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\Debug/../src/ISR.c:38: more undefined references to `ADC_Channel' follow
+./src/ISR.o: In function `ScuTimer_IRQ_Handler':
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\Debug/../src/ISR.c:39: undefined reference to `PS_GPIO_GetPort'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\Debug/../src/ISR.c:39: undefined reference to `ADC_Channel'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\Debug/../src/ISR.c:39: undefined reference to `ADC_Channel'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\Debug/../src/ISR.c:40: undefined reference to `ADC_Channel'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\Debug/../src/ISR.c:40: undefined reference to `ADC_Channel'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\Debug/../src/ISR.c:40: undefined reference to `ADC_Channel'
+./src/ISR.o:D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\Debug/../src/ISR.c:40: more undefined references to `ADC_Channel' follow
+./src/ISR.o: In function `ScuTimer_IRQ_Handler':
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\Debug/../src/ISR.c:44: undefined reference to `Dig_Data'
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\Debug/../src/ISR.c:44: undefined reference to `Dig_Data'
+../../spi_adc_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:43: spi_adc.elf] Error 1
+16:28:29 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ISR.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/ISR.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ISR.d" -MT"src/ISR.o" -o "src/ISR.o" "../src/ISR.c"
+../src/ISR.c:19:18: warning: 'Flag_200ms' defined but not used [-Wunused-variable]
+ static uint8_t i,Flag_200ms; //200ms标志位
+                  ^~~~~~~~~~
+../src/ISR.c:19:16: warning: 'i' defined but not used [-Wunused-variable]
+ static uint8_t i,Flag_200ms; //200ms标志位
+                ^
+'Finished building: ../src/ISR.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../spi_adc_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:43: spi_adc.elf] Error 1
+16:32:52 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi_adc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size spi_adc.elf  |tee "spi_adc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27968	   1936	  22712	  52616	   cd88	spi_adc.elf
+'Finished building: spi_adc.elf.size'
+' '
+16:38:47 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/COMMON.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+'Finished building: ../src/COMMON.c'
+' '
+'Building file: ../src/ISR.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/ISR.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ISR.d" -MT"src/ISR.o" -o "src/ISR.o" "../src/ISR.c"
+../src/ISR.c:19:18: warning: 'Flag_200ms' defined but not used [-Wunused-variable]
+ static uint8_t i,Flag_200ms; //200ms标志位
+                  ^~~~~~~~~~
+../src/ISR.c:19:16: warning: 'i' defined but not used [-Wunused-variable]
+ static uint8_t i,Flag_200ms; //200ms标志位
+                ^
+'Finished building: ../src/ISR.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../ACZ7015_Lib/SCU/SCU_GIC.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/SCU/SCU_GIC.d" -MT"ACZ7015_Lib/SCU/SCU_GIC.o" -o "ACZ7015_Lib/SCU/SCU_GIC.o" "../ACZ7015_Lib/SCU/SCU_GIC.c"
+'Finished building: ../ACZ7015_Lib/SCU/SCU_GIC.c'
+' '
+'Building file: ../ACZ7015_Lib/SCU/SCU_TIMER.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"ACZ7015_Lib/SCU/SCU_TIMER.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/SCU/SCU_TIMER.d" -MT"ACZ7015_Lib/SCU/SCU_TIMER.o" -o "ACZ7015_Lib/SCU/SCU_TIMER.o" "../ACZ7015_Lib/SCU/SCU_TIMER.c"
+'Finished building: ../ACZ7015_Lib/SCU/SCU_TIMER.c'
+' '
+'Building file: ../ACZ7015_Lib/PS_SPI/PS_SPI.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"ACZ7015_Lib/PS_SPI/PS_SPI.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/PS_SPI/PS_SPI.d" -MT"ACZ7015_Lib/PS_SPI/PS_SPI.o" -o "ACZ7015_Lib/PS_SPI/PS_SPI.o" "../ACZ7015_Lib/PS_SPI/PS_SPI.c"
+'Finished building: ../ACZ7015_Lib/PS_SPI/PS_SPI.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi_adc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size spi_adc.elf  |tee "spi_adc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27968	   1936	  22712	  52616	   cd88	spi_adc.elf
+'Finished building: spi_adc.elf.size'
+' '
+16:40:00 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ISR.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/ISR.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ISR.d" -MT"src/ISR.o" -o "src/ISR.o" "../src/ISR.c"
+'Finished building: ../src/ISR.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi_adc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size spi_adc.elf  |tee "spi_adc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27968	   1936	  22712	  52616	   cd88	spi_adc.elf
+'Finished building: spi_adc.elf.size'
+' '
+16:49:06 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi_adc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size spi_adc.elf  |tee "spi_adc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27984	   1936	  22712	  52632	   cd98	spi_adc.elf
+'Finished building: spi_adc.elf.size'
+' '
+16:59:05 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi_adc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size spi_adc.elf  |tee "spi_adc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27984	   1936	  22712	  52632	   cd98	spi_adc.elf
+'Finished building: spi_adc.elf.size'
+' '
+17:00:10 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../ACZ7015_Lib/PS_SPI/PS_SPI.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"ACZ7015_Lib/PS_SPI/PS_SPI.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"ACZ7015_Lib/PS_SPI/PS_SPI.d" -MT"ACZ7015_Lib/PS_SPI/PS_SPI.o" -o "ACZ7015_Lib/PS_SPI/PS_SPI.o" "../ACZ7015_Lib/PS_SPI/PS_SPI.c"
+'Finished building: ../ACZ7015_Lib/PS_SPI/PS_SPI.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi_adc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size spi_adc.elf  |tee "spi_adc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27984	   1936	  22712	  52632	   cd98	spi_adc.elf
+'Finished building: spi_adc.elf.size'
+' '
+17:16:11 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:30:8: error: expected expression before ')' token
+  while(){
+        ^
+../src/main.c:22:8: warning: variable 'ADC_Val' set but not used [-Wunused-but-set-variable]
+  float ADC_Val;       //ADC电压值
+        ^~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+17:16:36 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:22:8: warning: variable 'ADC_Val' set but not used [-Wunused-but-set-variable]
+  float ADC_Val;       //ADC电压值
+        ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi_adc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size spi_adc.elf  |tee "spi_adc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28324	   1936	  22712	  52972	   ceec	spi_adc.elf
+'Finished building: spi_adc.elf.size'
+' '
+17:16:43 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:22:8: warning: variable 'ADC_Val' set but not used [-Wunused-but-set-variable]
+  float ADC_Val;       //ADC电压值
+        ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi_adc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size spi_adc.elf  |tee "spi_adc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28324	   1936	  22712	  52972	   ceec	spi_adc.elf
+'Finished building: spi_adc.elf.size'
+' '
+17:16:47 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:22:8: warning: variable 'ADC_Val' set but not used [-Wunused-but-set-variable]
+  float ADC_Val;       //ADC电压值
+        ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi_adc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size spi_adc.elf  |tee "spi_adc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28324	   1936	  22712	  52972	   ceec	spi_adc.elf
+'Finished building: spi_adc.elf.size'
+' '
+17:21:27 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:22:8: warning: variable 'ADC_Val' set but not used [-Wunused-but-set-variable]
+  float ADC_Val;       //ADC电压值
+        ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi_adc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size spi_adc.elf  |tee "spi_adc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28324	   1936	  22712	  52972	   ceec	spi_adc.elf
+'Finished building: spi_adc.elf.size'
+' '
+17:21:37 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:34:9: warning: variable 'ADC_Val' set but not used [-Wunused-but-set-variable]
+   float ADC_Val;       //ADC电压值
+         ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi_adc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size spi_adc.elf  |tee "spi_adc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28324	   1936	  22712	  52972	   ceec	spi_adc.elf
+'Finished building: spi_adc.elf.size'
+' '
+17:26:26 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:34:9: warning: variable 'ADC_Val' set but not used [-Wunused-but-set-variable]
+   float ADC_Val;       //ADC电压值
+         ^~~~~~~
+../src/main.c:22:11: warning: unused variable 'ADC_Channel' [-Wunused-variable]
+  uint8_t  ADC_Channel = 0;  //设置ADC通道为INT0
+           ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi_adc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size spi_adc.elf  |tee "spi_adc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28332	   1936	  22712	  52980	   cef4	spi_adc.elf
+'Finished building: spi_adc.elf.size'
+' '
+17:26:31 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:34:9: warning: variable 'ADC_Val' set but not used [-Wunused-but-set-variable]
+   float ADC_Val;       //ADC电压值
+         ^~~~~~~
+../src/main.c:22:11: warning: unused variable 'ADC_Channel' [-Wunused-variable]
+  uint8_t  ADC_Channel = 0;       //设置ADC通道为INT0
+           ^~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi_adc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size spi_adc.elf  |tee "spi_adc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28332	   1936	  22712	  52980	   cef4	spi_adc.elf
+'Finished building: spi_adc.elf.size'
+' '
+17:28:29 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:36:9: warning: variable 'ADC_Val' set but not used [-Wunused-but-set-variable]
+   float ADC_Val;  //ADC电压值
+         ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi_adc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size spi_adc.elf  |tee "spi_adc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28348	   1936	  22712	  52996	   cf04	spi_adc.elf
+'Finished building: spi_adc.elf.size'
+' '
+17:45:40 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:45:8: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+ printf("");
+        ^~
+../src/main.c:36:9: warning: variable 'ADC_Val' set but not used [-Wunused-but-set-variable]
+   float ADC_Val;  //ADC电压值
+         ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi_adc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size spi_adc.elf  |tee "spi_adc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28348	   1936	  22712	  52996	   cf04	spi_adc.elf
+'Finished building: spi_adc.elf.size'
+' '
+17:46:09 **** Auto Build of configuration Debug for project spi_adc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../spi_adc_bsp/ps7_cortexa9_0/include -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\src" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\PS_SPI" -I"D:\NEW\TYUT\FPGA\Code\1_Learning\PS\1_BronzeDivision\spi_adc\spi_adc.sdk\spi_adc\ACZ7015_Lib\SCU" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: spi_adc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../spi_adc_bsp/ps7_cortexa9_0/lib -o "spi_adc.elf"  ./src/COMMON.o ./src/ISR.o ./src/main.o  ./ACZ7015_Lib/SCU/SCU_GIC.o ./ACZ7015_Lib/SCU/SCU_TIMER.o  ./ACZ7015_Lib/PS_SPI/PS_SPI.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spi_adc.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size spi_adc.elf  |tee "spi_adc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79560	   3372	  23472	 106404	  19fa4	spi_adc.elf
+'Finished building: spi_adc.elf.size'
+' '

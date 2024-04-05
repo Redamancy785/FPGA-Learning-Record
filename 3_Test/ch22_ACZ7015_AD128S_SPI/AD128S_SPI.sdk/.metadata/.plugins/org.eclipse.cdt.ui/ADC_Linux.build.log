@@ -1,0 +1,38 @@
+16:56:54 **** Build of configuration Debug for project ADC_Linux ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../ADC_Linux_bsp/ps7_cortexa9_0/include -I"F:\ZYNQ_Project\ACZ702_Project\Debugging\AD128S_SPI\AD128S_SPI.sdk\ADC_Linux\PS_SPI" -I"F:\ZYNQ_Project\ACZ702_Project\Debugging\AD128S_SPI\AD128S_SPI.sdk\ADC_Linux\Timer" -I"F:\ZYNQ_Project\ACZ702_Project\Debugging\AD128S_SPI\AD128S_SPI.sdk\ADC_Linux\PS_GPIO" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../Timer/Timer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../ADC_Linux_bsp/ps7_cortexa9_0/include -I"F:\ZYNQ_Project\ACZ702_Project\Debugging\AD128S_SPI\AD128S_SPI.sdk\ADC_Linux\PS_SPI" -I"F:\ZYNQ_Project\ACZ702_Project\Debugging\AD128S_SPI\AD128S_SPI.sdk\ADC_Linux\Timer" -I"F:\ZYNQ_Project\ACZ702_Project\Debugging\AD128S_SPI\AD128S_SPI.sdk\ADC_Linux\PS_GPIO" -c -fmessage-length=0 -MT"Timer/Timer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"Timer/Timer.d" -MT"Timer/Timer.o" -o "Timer/Timer.o" "../Timer/Timer.c"
+'Finished building: ../Timer/Timer.c'
+' '
+'Building file: ../PS_SPI/PS_SPI.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../ADC_Linux_bsp/ps7_cortexa9_0/include -I"F:\ZYNQ_Project\ACZ702_Project\Debugging\AD128S_SPI\AD128S_SPI.sdk\ADC_Linux\PS_SPI" -I"F:\ZYNQ_Project\ACZ702_Project\Debugging\AD128S_SPI\AD128S_SPI.sdk\ADC_Linux\Timer" -I"F:\ZYNQ_Project\ACZ702_Project\Debugging\AD128S_SPI\AD128S_SPI.sdk\ADC_Linux\PS_GPIO" -c -fmessage-length=0 -MT"PS_SPI/PS_SPI.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"PS_SPI/PS_SPI.d" -MT"PS_SPI/PS_SPI.o" -o "PS_SPI/PS_SPI.o" "../PS_SPI/PS_SPI.c"
+'Finished building: ../PS_SPI/PS_SPI.c'
+' '
+'Building file: ../PS_GPIO/PS_GPIO.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../ADC_Linux_bsp/ps7_cortexa9_0/include -I"F:\ZYNQ_Project\ACZ702_Project\Debugging\AD128S_SPI\AD128S_SPI.sdk\ADC_Linux\PS_SPI" -I"F:\ZYNQ_Project\ACZ702_Project\Debugging\AD128S_SPI\AD128S_SPI.sdk\ADC_Linux\Timer" -I"F:\ZYNQ_Project\ACZ702_Project\Debugging\AD128S_SPI\AD128S_SPI.sdk\ADC_Linux\PS_GPIO" -c -fmessage-length=0 -MT"PS_GPIO/PS_GPIO.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"PS_GPIO/PS_GPIO.d" -MT"PS_GPIO/PS_GPIO.o" -o "PS_GPIO/PS_GPIO.o" "../PS_GPIO/PS_GPIO.c"
+'Finished building: ../PS_GPIO/PS_GPIO.c'
+' '
+'Building target: ADC_Linux.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ADC_Linux_bsp/ps7_cortexa9_0/lib -o "ADC_Linux.elf"  ./src/main.o  ./Timer/Timer.o  ./PS_SPI/PS_SPI.o  ./PS_GPIO/PS_GPIO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ADC_Linux.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ADC_Linux.elf  |tee "ADC_Linux.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37012	   1984	  22744	  61740	   f12c	ADC_Linux.elf
+'Finished building: ADC_Linux.elf.size'
+' '
+
+16:56:55 Build Finished (took 1s.449ms)
+
